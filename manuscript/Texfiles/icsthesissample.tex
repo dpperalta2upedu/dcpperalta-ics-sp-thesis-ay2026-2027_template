@@ -3,6 +3,7 @@
 %Reminders: Omit \lipsum commands
 
 \documentclass{icsthesis}
+\usepackage{graphicx} 
 \usepackage{lipsum} %for generating dummy text
 
 %\usepackage{showframe} %for debugging the margins
@@ -11,8 +12,7 @@
 %Replace the values here, various commands depend on this variables                                                                                                                                                            
 \renewcommand{\TITLE}{AN ATTEMPT TO SOLVE THE P=NP PROBLEM USING MATCHES, STONES AND STICKS TO REPRESENT M-TAPE N-HEAD TURING MACHINES}
 \renewcommand{\AUTHOR}{JEJOMAR ROXAS ARROYO}
-\renewcommand{\DEGREE}{MASTER OF SCIENCE}
-\renewcommand{\MAJOR}{Computer Science}
+\renewcommand{\DEGREE}{BACHELOR OF SCIENCE IN COMPUTER SCIENCE}
 \renewcommand{\MONTH}{JANUARY}
 \renewcommand{\YEAR}{2060}
 
@@ -23,20 +23,22 @@
 		\maketitle
 				
 		\begin{approvalpage}
-			The thesis hereto attached entitled \TITLE , prepared and submitted by \AUTHOR , in partial fulfillment of the requirements for the degree of \DEGREE\ (\MAJOR) is hereby accepted.
+			The Special Problem/thesis hereto attached, titled \TITLE , prepared and submitted by \AUTHOR , in partial fulfillment of the requirements for the degree of \DEGREE\ is hereby accepted.
 			
-			\begin{multicols}{2}
-				\centering
-				\addsignature{ISAAC X. NEWTON}{Member, Guidance Committee} %custom command for adding signature field
-				\columnbreak
-				\addsignature{ISAAC X. NEWTON}{Member, Guidance Committee}
-			\end{multicols}
-			\addsignature{ALAN X. TURING}{Chair, Guidance Committee}
-			
-			Accepted in partial fulfillment of the requirements for the degree of \DEGREE\ (\MAJOR). 
+			\addsignature{ALAN X. TURING}{Adviser}
+
+            %%
+            % EDIT THIS OUT FOR SP
+            
+            
+			Accepted in partial fulfillment of the requirements for the degree of \DEGREE\ .\\ 
 			\addsignature{EDSGER W. DIJKSTRA}{Director, Institute of Graphs}
 			\addsignature{STEPHEN W. HAWKING}{Dean, Graduate School\\University of the Mars Los Ba\~{n}os}
-		\end{approvalpage}
+		
+            %%
+        
+        
+        \end{approvalpage}
 		
 		\begin{biosketch}
 			\lipsum[4] %insert dummy text
