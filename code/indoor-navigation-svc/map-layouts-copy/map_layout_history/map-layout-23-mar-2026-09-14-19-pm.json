@@ -1,0 +1,2222 @@
+{
+    "version":  1,
+    "units":  "px",
+    "viewBox":  {
+                    "w":  1768,
+                    "h":  930
+                },
+    "grid":  {
+                 "size":  40
+             },
+    "mainEntrance":  {
+                         "x":  875,
+                         "y":  989
+                     },
+    "floors":  {
+                   "1":  {
+                             "wingBackgrounds":  {
+                                                     "C":  {
+                                                               "x":  40,
+                                                               "y":  716,
+                                                               "width":  1165,
+                                                               "height":  266,
+                                                               "r":  10
+                                                           },
+                                                     "B":  {
+                                                               "x":  645,
+                                                               "y":  414,
+                                                               "width":  1103,
+                                                               "height":  250,
+                                                               "r":  10
+                                                           },
+                                                     "A":  {
+                                                               "x":  530,
+                                                               "y":  96,
+                                                               "width":  1215,
+                                                               "height":  266,
+                                                               "r":  10
+                                                           }
+                                                 },
+                             "wings":  {
+                                           "A":  [
+                                                     {
+                                                         "id":  "stairs2-winga-1f",
+                                                         "name":  "Stairs",
+                                                         "x":  1675,
+                                                         "y":  254,
+                                                         "width":  55,
+                                                         "height":  80,
+                                                         "type":  "stairs",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "electronic-shop-a134",
+                                                         "name":  "Scientific Glassblowing Room A132",
+                                                         "x":  1420,
+                                                         "y":  254,
+                                                         "width":  220,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-a126",
+                                                         "name":  "Classroom A126",
+                                                         "x":  1340,
+                                                         "y":  254,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-a124",
+                                                         "name":  "Classroom A124",
+                                                         "x":  1260,
+                                                         "y":  254,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-a122",
+                                                         "name":  "Classroom A122",
+                                                         "x":  1180,
+                                                         "y":  254,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "balance-room-a118",
+                                                         "name":  "Balance Room A118",
+                                                         "x":  1075,
+                                                         "y":  254,
+                                                         "width":  100,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "womens-cr-a1",
+                                                         "name":  "Women\u0027s CR",
+                                                         "x":  1000,
+                                                         "y":  254,
+                                                         "width":  65,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "mens-cr-a1",
+                                                         "name":  "Men\u0027s CR",
+                                                         "x":  930,
+                                                         "y":  254,
+                                                         "width":  65,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "stairs1-winga-1f",
+                                                         "name":  "Stairs",
+                                                         "x":  825,
+                                                         "y":  254,
+                                                         "width":  55,
+                                                         "height":  80,
+                                                         "type":  "stairs",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "office-a108",
+                                                         "name":  "Office A108",
+                                                         "x":  745,
+                                                         "y":  254,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-a137",
+                                                         "name":  "Classroom A137",
+                                                         "x":  1520,
+                                                         "y":  124,
+                                                         "width":  150,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-a133-b",
+                                                         "name":  "Classroom A133-B",
+                                                         "x":  1360,
+                                                         "y":  124,
+                                                         "width":  150,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "enzyme-chem-research-lab-a113",
+                                                         "name":  "Enzyme Chem Research Lab A113",
+                                                         "x":  930,
+                                                         "y":  124,
+                                                         "width":  160,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "lounge",
+                                                         "name":  "Lounge",
+                                                         "x":  825,
+                                                         "y":  124,
+                                                         "width":  100,
+                                                         "height":  80,
+                                                         "type":  "lounge",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "main-entrance",
+                                                         "name":  "Main Entrance",
+                                                         "x":  837,
+                                                         "y":  964,
+                                                         "width":  75,
+                                                         "height":  50,
+                                                         "type":  "entrance",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "physical-chemistry-teaching-lab-a105",
+                                                         "name":  "Physical Chemistry Teaching Lab A105",
+                                                         "x":  660,
+                                                         "y":  124,
+                                                         "width":  160,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "lecture-room-a1f",
+                                                         "name":  "Lecture Room",
+                                                         "x":  550,
+                                                         "y":  124,
+                                                         "width":  100,
+                                                         "height":  210,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "hallway_wing_a_1_1",
+                                                         "name":  "hallway_wing_a_1_1",
+                                                         "x":  660,
+                                                         "y":  217,
+                                                         "width":  1075,
+                                                         "height":  24,
+                                                         "type":  "hallway",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "hallway_wing_b_1_2",
+                                                         "name":  "hallway_wing_b_1_2",
+                                                         "x":  660,
+                                                         "y":  527,
+                                                         "width":  1075,
+                                                         "height":  24,
+                                                         "type":  "hallway",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "hallway_wing_c_1_3",
+                                                         "name":  "hallway_wing_c_1_3",
+                                                         "x":  60,
+                                                         "y":  837,
+                                                         "width":  1125,
+                                                         "height":  24,
+                                                         "type":  "hallway",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "vertical_hallway_1_1",
+                                                         "name":  "vertical_hallway_1_1",
+                                                         "x":  893,
+                                                         "y":  241,
+                                                         "width":  24,
+                                                         "height":  596,
+                                                         "type":  "hallway",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "office-106",
+                                                         "name":  "Office A106",
+                                                         "x":  660,
+                                                         "y":  254,
+                                                         "width":  80,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-a127",
+                                                         "name":  "Classroom A127",
+                                                         "x":  1100,
+                                                         "y":  124,
+                                                         "width":  80,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "physical-chemistry-teaching-lab-a133",
+                                                         "name":  "Physical Chemistry Teaching Lab A133",
+                                                         "x":  1190,
+                                                         "y":  124,
+                                                         "width":  160,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "vertical_hallway_1_2",
+                                                         "name":  "vertical_hallway_1_2",
+                                                         "x":  1645,
+                                                         "y":  241,
+                                                         "width":  24,
+                                                         "height":  286,
+                                                         "type":  "hallway",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "bridge-a114-to-stairs-2",
+                                                         "name":  "Bridge Hallway",
+                                                         "x":  1637,
+                                                         "y":  330,
+                                                         "width":  40,
+                                                         "height":  100,
+                                                         "type":  "bridge",
+                                                         "passable":  true
+                                                     }
+                                                 ],
+                                           "B":  [
+                                                     {
+                                                         "id":  "stock-room-1f",
+                                                         "name":  "Stock Room",
+                                                         "x":  1620,
+                                                         "y":  564,
+                                                         "width":  105,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "general-chemistry-prep-room-b106",
+                                                         "name":  "General Chemistry Prep Room B106",
+                                                         "x":  1435,
+                                                         "y":  564,
+                                                         "width":  180,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-b104",
+                                                         "name":  "Classroom B104",
+                                                         "x":  1310,
+                                                         "y":  564,
+                                                         "width":  120,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-b102",
+                                                         "name":  "Classroom B102",
+                                                         "x":  1130,
+                                                         "y":  564,
+                                                         "width":  175,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "womens-cr-1f-wingb",
+                                                         "name":  "Women\u0027s CR",
+                                                         "x":  1060,
+                                                         "y":  564,
+                                                         "width":  65,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "mens-cr-b1",
+                                                         "name":  "Men\u0027s CR",
+                                                         "x":  990,
+                                                         "y":  564,
+                                                         "width":  65,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "stairs1-wingb-1f",
+                                                         "name":  "Stairs",
+                                                         "x":  930,
+                                                         "y":  564,
+                                                         "width":  55,
+                                                         "height":  80,
+                                                         "type":  "stairs",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "wingb-pslh-b1f",
+                                                         "name":  "PSLH-B",
+                                                         "x":  675,
+                                                         "y":  564,
+                                                         "width":  200,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "stairs2-wingb-1f",
+                                                         "name":  "Stairs",
+                                                         "x":  1675,
+                                                         "y":  434,
+                                                         "width":  55,
+                                                         "height":  80,
+                                                         "type":  "stairs",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "basic-chem-lab-b105",
+                                                         "name":  "Basic Chem Lab B105",
+                                                         "x":  1465,
+                                                         "y":  434,
+                                                         "width":  175,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "general-chemistry-teaching-lab-b113",
+                                                         "name":  "General Chemistry Teaching Lab B103",
+                                                         "x":  1195,
+                                                         "y":  434,
+                                                         "width":  250,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "basic-chem-lab1-b101",
+                                                         "name":  "Basic Chem Lab B101",
+                                                         "x":  930,
+                                                         "y":  434,
+                                                         "width":  250,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "wingb-pslh-a1f",
+                                                         "name":  "PSLH-A",
+                                                         "x":  675,
+                                                         "y":  434,
+                                                         "width":  200,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     }
+                                                 ],
+                                           "C":  [
+                                                     {
+                                                         "id":  "stairs1-wingc-1f",
+                                                         "name":  "Stairs",
+                                                         "x":  60,
+                                                         "y":  874,
+                                                         "width":  55,
+                                                         "height":  80,
+                                                         "type":  "stairs",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "storage-c127",
+                                                         "name":  "C127",
+                                                         "x":  120,
+                                                         "y":  874,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c125",
+                                                         "name":  "Office C125",
+                                                         "x":  200,
+                                                         "y":  874,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c123",
+                                                         "name":  "Office C123",
+                                                         "x":  280,
+                                                         "y":  874,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c121",
+                                                         "name":  "Office C121",
+                                                         "x":  360,
+                                                         "y":  874,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c119",
+                                                         "name":  "Office C119",
+                                                         "x":  440,
+                                                         "y":  874,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c117",
+                                                         "name":  "Office C117",
+                                                         "x":  520,
+                                                         "y":  874,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "lobby",
+                                                         "name":  "Lobby",
+                                                         "x":  825,
+                                                         "y":  874,
+                                                         "width":  100,
+                                                         "height":  80,
+                                                         "type":  "lounge",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "classroom-c105",
+                                                         "name":  "Classroom C101",
+                                                         "x":  1060,
+                                                         "y":  744,
+                                                         "width":  125,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-c100",
+                                                         "name":  "Classroom C100",
+                                                         "x":  930,
+                                                         "y":  744,
+                                                         "width":  125,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "stairs2-wingc-1f",
+                                                         "name":  "Stairs",
+                                                         "x":  825,
+                                                         "y":  744,
+                                                         "width":  55,
+                                                         "height":  80,
+                                                         "type":  "stairs",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "office-c114",
+                                                         "name":  "Office C114",
+                                                         "x":  650,
+                                                         "y":  744,
+                                                         "width":  80,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c116",
+                                                         "name":  "Office C116",
+                                                         "x":  565,
+                                                         "y":  744,
+                                                         "width":  80,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c118",
+                                                         "name":  "Office C118",
+                                                         "x":  480,
+                                                         "y":  744,
+                                                         "width":  80,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "ics-laboratory",
+                                                         "name":  "ICS Laboratory",
+                                                         "x":  205,
+                                                         "y":  744,
+                                                         "width":  100,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-c124",
+                                                         "name":  "Office C124",
+                                                         "x":  120,
+                                                         "y":  744,
+                                                         "width":  80,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c115",
+                                                         "name":  "Office C115",
+                                                         "x":  600,
+                                                         "y":  874,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "womens-cr-c1",
+                                                         "name":  "Women\u0027s CR",
+                                                         "x":  680,
+                                                         "y":  874,
+                                                         "width":  65,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "mens-cr-c1",
+                                                         "name":  "Men\u0027s CR",
+                                                         "x":  750,
+                                                         "y":  874,
+                                                         "width":  65,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-c103",
+                                                         "name":  "Classroom C103",
+                                                         "x":  930,
+                                                         "y":  874,
+                                                         "width":  125,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-c102",
+                                                         "name":  "Classroom C102",
+                                                         "x":  1060,
+                                                         "y":  874,
+                                                         "width":  120,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "ics-admin-room",
+                                                         "name":  "ICS Admin",
+                                                         "x":  310,
+                                                         "y":  744,
+                                                         "width":  80,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c122",
+                                                         "name":  "Office C122",
+                                                         "x":  395,
+                                                         "y":  744,
+                                                         "width":  80,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c112",
+                                                         "name":  "Office C112",
+                                                         "x":  735,
+                                                         "y":  744,
+                                                         "width":  80,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     }
+                                                 ]
+                                       },
+                             "bridges":  {
+                                             "AB":  {
+                                                        "id":  "bridge-a114-to-stairs",
+                                                        "name":  "Bridge Hallway",
+                                                        "x":  885,
+                                                        "y":  330,
+                                                        "width":  40,
+                                                        "height":  100,
+                                                        "type":  "bridge",
+                                                        "passable":  true
+                                                    },
+                                             "BC":  {
+                                                        "id":  "bridge-b106-to-c106",
+                                                        "name":  "Bridge Hallway",
+                                                        "x":  885,
+                                                        "y":  644,
+                                                        "width":  40,
+                                                        "height":  100,
+                                                        "type":  "bridge",
+                                                        "passable":  true
+                                                    }
+                                         }
+                         },
+                   "2":  {
+                             "wingBackgrounds":  {
+                                                     "C":  {
+                                                               "x":  40,
+                                                               "y":  723,
+                                                               "width":  1160,
+                                                               "height":  260,
+                                                               "r":  10
+                                                           },
+                                                     "B":  {
+                                                               "x":  80,
+                                                               "y":  311,
+                                                               "width":  1680,
+                                                               "height":  390,
+                                                               "r":  10
+                                                           },
+                                                     "A":  {
+                                                               "x":  600,
+                                                               "y":  35,
+                                                               "width":  1160,
+                                                               "height":  260,
+                                                               "r":  10
+                                                           }
+                                                 },
+                             "wings":  {
+                                           "A":  [
+                                                     {
+                                                         "id":  "stairs2-winga-2f",
+                                                         "name":  "Stairs",
+                                                         "x":  1675,
+                                                         "y":  189,
+                                                         "width":  55,
+                                                         "height":  80,
+                                                         "type":  "stairs",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "classroom-a232",
+                                                         "name":  "Classroom A232",
+                                                         "x":  1530,
+                                                         "y":  189,
+                                                         "width":  110,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-a226",
+                                                         "name":  "Classroom A226",
+                                                         "x":  1415,
+                                                         "y":  189,
+                                                         "width":  110,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-a222",
+                                                         "name":  "Classroom A222",
+                                                         "x":  1300,
+                                                         "y":  189,
+                                                         "width":  110,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "supply-room-a220",
+                                                         "name":  "Supply Room A220",
+                                                         "x":  1185,
+                                                         "y":  189,
+                                                         "width":  110,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "prep-room-a218",
+                                                         "name":  "Prep Room A218",
+                                                         "x":  1070,
+                                                         "y":  189,
+                                                         "width":  110,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "womens-cr-2f-winga",
+                                                         "name":  "Women\u0027s CR",
+                                                         "x":  1000,
+                                                         "y":  189,
+                                                         "width":  65,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "mens-cr-2f-winga",
+                                                         "name":  "Men\u0027s CR",
+                                                         "x":  930,
+                                                         "y":  189,
+                                                         "width":  65,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "stairs1-winga-2f",
+                                                         "name":  "Stairs",
+                                                         "x":  825,
+                                                         "y":  189,
+                                                         "width":  55,
+                                                         "height":  80,
+                                                         "type":  "stairs",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "storage-room-2f-winga",
+                                                         "name":  "Storage Room",
+                                                         "x":  1630,
+                                                         "y":  59,
+                                                         "width":  100,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "bio-chem-research-lab",
+                                                         "name":  "BioChem Research Lab",
+                                                         "x":  1480,
+                                                         "y":  59,
+                                                         "width":  125,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "bio-chem-teaching-lab-a227",
+                                                         "name":  "BioChem Teaching Lab A227",
+                                                         "x":  1350,
+                                                         "y":  59,
+                                                         "width":  125,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-a225",
+                                                         "name":  "Classroom A225",
+                                                         "x":  1245,
+                                                         "y":  59,
+                                                         "width":  100,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "reading-room-a217",
+                                                         "name":  "Reading Room A217",
+                                                         "x":  1140,
+                                                         "y":  59,
+                                                         "width":  100,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "directors-office-a213",
+                                                         "name":  "Director\u0027s Office A213",
+                                                         "x":  1035,
+                                                         "y":  59,
+                                                         "width":  100,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-a209",
+                                                         "name":  "Classrom A209",
+                                                         "x":  825,
+                                                         "y":  59,
+                                                         "width":  205,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "neuroscience-lab",
+                                                         "name":  "UPLB Neuroscience and Technology Facility Analytical and Instrumentation Science Lab",
+                                                         "x":  620,
+                                                         "y":  59,
+                                                         "width":  200,
+                                                         "height":  210,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "hallway_wing_a_2_1",
+                                                         "name":  "hallway_wing_a_2_1",
+                                                         "x":  825,
+                                                         "y":  151,
+                                                         "width":  910,
+                                                         "height":  24,
+                                                         "type":  "hallway",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "hallway_wing_b_2_4",
+                                                         "name":  "hallway_wing_b_2_4",
+                                                         "x":  105,
+                                                         "y":  414,
+                                                         "width":  790,
+                                                         "height":  24,
+                                                         "type":  "hallway",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "vertical_hallway_2_2",
+                                                         "name":  "vertical_hallway_2_2",
+                                                         "x":  1645,
+                                                         "y":  175,
+                                                         "width":  24,
+                                                         "height":  355,
+                                                         "type":  "hallway",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "bridge-a214-to-stairs-2",
+                                                         "name":  "Bridge Hallway",
+                                                         "x":  1637,
+                                                         "y":  280,
+                                                         "width":  40,
+                                                         "height":  100,
+                                                         "type":  "bridge",
+                                                         "passable":  true
+                                                     }
+                                                 ],
+                                           "B":  [
+                                                     {
+                                                         "id":  "classroom-b222",
+                                                         "name":  "Classroom B222",
+                                                         "x":  1620,
+                                                         "y":  564,
+                                                         "width":  105,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-b218",
+                                                         "name":  "Classroom B218",
+                                                         "x":  1435,
+                                                         "y":  564,
+                                                         "width":  175,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-b214",
+                                                         "name":  "Classroom B214",
+                                                         "x":  1255,
+                                                         "y":  564,
+                                                         "width":  175,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-b210",
+                                                         "name":  "Classroom B210",
+                                                         "x":  1130,
+                                                         "y":  564,
+                                                         "width":  120,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "womens-cr-2f-wingb",
+                                                         "name":  "Women\u0027s CR",
+                                                         "x":  1060,
+                                                         "y":  564,
+                                                         "width":  65,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "womens-cr-b208",
+                                                         "name":  "Women\u0027s CR B208",
+                                                         "x":  990,
+                                                         "y":  564,
+                                                         "width":  55,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "mens-cr-2f-wingb",
+                                                         "name":  "Men\u0027s CR",
+                                                         "x":  990,
+                                                         "y":  564,
+                                                         "width":  65,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "stairs1-wingb-2f",
+                                                         "name":  "Stairs",
+                                                         "x":  930,
+                                                         "y":  564,
+                                                         "width":  55,
+                                                         "height":  80,
+                                                         "type":  "stairs",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "stairs2-wingb-2f",
+                                                         "name":  "Stairs",
+                                                         "x":  1675,
+                                                         "y":  434,
+                                                         "width":  55,
+                                                         "height":  80,
+                                                         "type":  "stairs",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "classroom-b225",
+                                                         "name":  "Classroom B225",
+                                                         "x":  1470,
+                                                         "y":  434,
+                                                         "width":  170,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-b219",
+                                                         "name":  "Classroom B219",
+                                                         "x":  1290,
+                                                         "y":  434,
+                                                         "width":  175,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-b213",
+                                                         "name":  "Classroom B213",
+                                                         "x":  1110,
+                                                         "y":  434,
+                                                         "width":  175,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-b207",
+                                                         "name":  "Classroom B207",
+                                                         "x":  930,
+                                                         "y":  434,
+                                                         "width":  175,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "hallway_wing_b_2_2",
+                                                         "name":  "hallway_wing_b_2_2",
+                                                         "x":  895,
+                                                         "y":  527,
+                                                         "width":  840,
+                                                         "height":  24,
+                                                         "type":  "hallway",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "vertical_hallway_2_1",
+                                                         "name":  "vertical_hallway_2_1",
+                                                         "x":  893,
+                                                         "y":  175,
+                                                         "width":  24,
+                                                         "height":  660,
+                                                         "type":  "hallway",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "mens-cr-b2",
+                                                         "name":  "Men\u0027s CR",
+                                                         "x":  815,
+                                                         "y":  624,
+                                                         "width":  65,
+                                                         "height":  60,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "stairs-2f-wingb",
+                                                         "name":  "Stairs",
+                                                         "x":  825,
+                                                         "y":  494,
+                                                         "width":  55,
+                                                         "height":  80,
+                                                         "type":  "stairs",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "function-room-2f-wingb",
+                                                         "name":  "Function Room",
+                                                         "x":  735,
+                                                         "y":  494,
+                                                         "width":  80,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "womens-cr-b2",
+                                                         "name":  "Women\u0027s CR",
+                                                         "x":  810,
+                                                         "y":  334,
+                                                         "width":  65,
+                                                         "height":  65,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "ics-mega-hall",
+                                                         "name":  "Eliezer A. Albacea Lecture Hall (ICS Mega Hall)",
+                                                         "x":  145,
+                                                         "y":  334,
+                                                         "width":  655,
+                                                         "height":  65,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "pc-lab-4",
+                                                         "name":  "PC Lab 4",
+                                                         "x":  440,
+                                                         "y":  494,
+                                                         "width":  280,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "pc-lab-3",
+                                                         "name":  "PC Lab 3",
+                                                         "x":  105,
+                                                         "y":  624,
+                                                         "width":  230,
+                                                         "height":  60,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "pc-lab-2",
+                                                         "name":  "PB Lab 2",
+                                                         "x":  340,
+                                                         "y":  624,
+                                                         "width":  230,
+                                                         "height":  60,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "pc-lab-1",
+                                                         "name":  "PC Lab 1",
+                                                         "x":  575,
+                                                         "y":  624,
+                                                         "width":  230,
+                                                         "height":  60,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "pc-lab-5",
+                                                         "name":  "PC Lab 5",
+                                                         "x":  145,
+                                                         "y":  494,
+                                                         "width":  280,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     }
+                                                 ],
+                                           "C":  [
+                                                     {
+                                                         "id":  "stairs1-wingc-2f",
+                                                         "name":  "Stairs",
+                                                         "x":  60,
+                                                         "y":  874,
+                                                         "width":  55,
+                                                         "height":  80,
+                                                         "type":  "stairs",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "office-c215",
+                                                         "name":  "Office C215",
+                                                         "x":  120,
+                                                         "y":  874,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c213",
+                                                         "name":  "Office C213",
+                                                         "x":  200,
+                                                         "y":  874,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c211",
+                                                         "name":  "Office C211",
+                                                         "x":  280,
+                                                         "y":  874,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c209",
+                                                         "name":  "Office C209",
+                                                         "x":  360,
+                                                         "y":  874,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c207",
+                                                         "name":  "Office C207",
+                                                         "x":  440,
+                                                         "y":  874,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c205",
+                                                         "name":  "Office C205",
+                                                         "x":  520,
+                                                         "y":  874,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c203",
+                                                         "name":  "Office C203",
+                                                         "x":  600,
+                                                         "y":  874,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "womens-cr-2f-wingc",
+                                                         "name":  "Women\u0027s CR",
+                                                         "x":  680,
+                                                         "y":  874,
+                                                         "width":  65,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "mens-cr-2f-wingc",
+                                                         "name":  "Men\u0027s CR",
+                                                         "x":  750,
+                                                         "y":  874,
+                                                         "width":  65,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "Lobby-c-2f",
+                                                         "name":  "Lobby",
+                                                         "x":  825,
+                                                         "y":  874,
+                                                         "width":  100,
+                                                         "height":  80,
+                                                         "type":  "lounge",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "lecture-hall-2-2f",
+                                                         "name":  "Lecture Hall 2",
+                                                         "x":  1060,
+                                                         "y":  744,
+                                                         "width":  125,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "lecture-hall-1-2f",
+                                                         "name":  "Lecture Hall 1",
+                                                         "x":  930,
+                                                         "y":  744,
+                                                         "width":  125,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "stairs2-wingc-2f",
+                                                         "name":  "Stairs",
+                                                         "x":  825,
+                                                         "y":  744,
+                                                         "width":  55,
+                                                         "height":  80,
+                                                         "type":  "stairs",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "office-c204",
+                                                         "name":  "Office C204",
+                                                         "x":  620,
+                                                         "y":  744,
+                                                         "width":  95,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c206",
+                                                         "name":  "Office C206",
+                                                         "x":  520,
+                                                         "y":  744,
+                                                         "width":  95,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c210",
+                                                         "name":  "Office C210",
+                                                         "x":  320,
+                                                         "y":  744,
+                                                         "width":  95,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-c212",
+                                                         "name":  "Office C212",
+                                                         "x":  220,
+                                                         "y":  744,
+                                                         "width":  95,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c214",
+                                                         "name":  "Office C214",
+                                                         "x":  120,
+                                                         "y":  744,
+                                                         "width":  95,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "hallway_wing_c_2_3",
+                                                         "name":  "hallway_wing_c_2_3",
+                                                         "x":  60,
+                                                         "y":  837,
+                                                         "width":  1125,
+                                                         "height":  24,
+                                                         "type":  "hallway",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "office-c208",
+                                                         "name":  "Office C208",
+                                                         "x":  420,
+                                                         "y":  744,
+                                                         "width":  95,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c202",
+                                                         "name":  "Office C202",
+                                                         "x":  720,
+                                                         "y":  744,
+                                                         "width":  95,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "hallway_wing_b_2_5",
+                                                         "name":  "hallway_wing_b_2_5",
+                                                         "x":  105,
+                                                         "y":  584,
+                                                         "width":  790,
+                                                         "height":  24,
+                                                         "type":  "hallway",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "vertical_hallway_2_3",
+                                                         "name":  "vertical_hallway_2_3",
+                                                         "x":  105,
+                                                         "y":  434,
+                                                         "width":  24,
+                                                         "height":  150,
+                                                         "type":  "hallway",
+                                                         "passable":  true
+                                                     }
+                                                 ]
+                                       },
+                             "bridges":  {
+                                             "AB":  {
+                                                        "id":  "bridge-a214-to-stairs",
+                                                        "name":  "Bridge Hallway",
+                                                        "x":  885,
+                                                        "y":  270,
+                                                        "width":  40,
+                                                        "height":  100,
+                                                        "type":  "bridge",
+                                                        "passable":  true
+                                                    },
+                                             "BC":  {
+                                                        "id":  "bridge-b206-to-c206",
+                                                        "name":  "Bridge Hallway",
+                                                        "x":  885,
+                                                        "y":  654,
+                                                        "width":  40,
+                                                        "height":  100,
+                                                        "type":  "bridge",
+                                                        "passable":  true
+                                                    }
+                                         }
+                         },
+                   "3":  {
+                             "wingBackgrounds":  {
+                                                     "C":  {
+                                                               "x":  29,
+                                                               "y":  731,
+                                                               "width":  1320,
+                                                               "height":  240,
+                                                               "r":  10
+                                                           },
+                                                     "B":  {
+                                                               "x":  80,
+                                                               "y":  320,
+                                                               "width":  1680,
+                                                               "height":  400,
+                                                               "r":  10
+                                                           },
+                                                     "A":  {
+                                                               "x":  560,
+                                                               "y":  20,
+                                                               "width":  1200,
+                                                               "height":  280,
+                                                               "r":  10
+                                                           }
+                                                 },
+                             "wings":  {
+                                           "A":  [
+                                                     {
+                                                         "id":  "stairs2-winga-3f",
+                                                         "name":  "Stairs",
+                                                         "x":  1675,
+                                                         "y":  189,
+                                                         "width":  55,
+                                                         "height":  80,
+                                                         "type":  "stairs",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "classroom-a326",
+                                                         "name":  "Classroom A326",
+                                                         "x":  1300,
+                                                         "y":  189,
+                                                         "width":  110,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "chromatography-a322",
+                                                         "name":  "Classroom A322",
+                                                         "x":  1185,
+                                                         "y":  189,
+                                                         "width":  110,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-a318",
+                                                         "name":  "Classroom A318",
+                                                         "x":  1070,
+                                                         "y":  189,
+                                                         "width":  110,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "womens-cr-3f-winga",
+                                                         "name":  "Women\u0027s CR",
+                                                         "x":  1000,
+                                                         "y":  189,
+                                                         "width":  65,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "mens-cr-3f-winga",
+                                                         "name":  "Men\u0027s CR",
+                                                         "x":  930,
+                                                         "y":  189,
+                                                         "width":  65,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "stairs1-winga-3f",
+                                                         "name":  "Stairs",
+                                                         "x":  825,
+                                                         "y":  189,
+                                                         "width":  55,
+                                                         "height":  80,
+                                                         "type":  "stairs",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "classroom-a306",
+                                                         "name":  "Classroom A306",
+                                                         "x":  685,
+                                                         "y":  189,
+                                                         "width":  135,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "analytical-service-lab",
+                                                         "name":  "Analytical Service Lab",
+                                                         "x":  1470,
+                                                         "y":  59,
+                                                         "width":  250,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "instrument-room-a329",
+                                                         "name":  "Instrument Room A329",
+                                                         "x":  1335,
+                                                         "y":  59,
+                                                         "width":  130,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-a325",
+                                                         "name":  "Classroom A325",
+                                                         "x":  1200,
+                                                         "y":  59,
+                                                         "width":  130,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "instrument-room-a321",
+                                                         "name":  "Instrument Room A321",
+                                                         "x":  1120,
+                                                         "y":  59,
+                                                         "width":  55,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-a319",
+                                                         "name":  "Classroom A319",
+                                                         "x":  1065,
+                                                         "y":  59,
+                                                         "width":  130,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-a311",
+                                                         "name":  "Classroom A311",
+                                                         "x":  930,
+                                                         "y":  59,
+                                                         "width":  130,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-a305",
+                                                         "name":  "Classroom A305",
+                                                         "x":  685,
+                                                         "y":  59,
+                                                         "width":  135,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-a301",
+                                                         "name":  "Classroom A301",
+                                                         "x":  595,
+                                                         "y":  59,
+                                                         "width":  80,
+                                                         "height":  210,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "hallway_wing_a_3_1",
+                                                         "name":  "hallway_wing_a_3_1",
+                                                         "x":  685,
+                                                         "y":  151,
+                                                         "width":  1045,
+                                                         "height":  24,
+                                                         "type":  "hallway",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "classroom-a332",
+                                                         "name":  "Classroom A332",
+                                                         "x":  1415,
+                                                         "y":  189,
+                                                         "width":  110,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-a334",
+                                                         "name":  "Classroom A334",
+                                                         "x":  1530,
+                                                         "y":  189,
+                                                         "width":  110,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "vertical_hallway_3_2",
+                                                         "name":  "vertical_hallway_3_2",
+                                                         "x":  1645,
+                                                         "y":  175,
+                                                         "width":  24,
+                                                         "height":  355,
+                                                         "type":  "hallway",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "hallway_wing_a_3_4",
+                                                         "name":  "hallway_wing_a_3_4",
+                                                         "x":  105,
+                                                         "y":  414,
+                                                         "width":  800,
+                                                         "height":  24,
+                                                         "type":  "hallway",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "bridge-a314-to-stairs-2",
+                                                         "name":  "Bridge Hallway",
+                                                         "x":  1637,
+                                                         "y":  270,
+                                                         "width":  40,
+                                                         "height":  100,
+                                                         "type":  "bridge",
+                                                         "passable":  true
+                                                     }
+                                                 ],
+                                           "B":  [
+                                                     {
+                                                         "id":  "classroom-b308",
+                                                         "name":  "Classroom B308",
+                                                         "x":  1620,
+                                                         "y":  564,
+                                                         "width":  105,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-b306",
+                                                         "name":  "Classroom B306",
+                                                         "x":  1435,
+                                                         "y":  564,
+                                                         "width":  175,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-b304",
+                                                         "name":  "Classroom B304",
+                                                         "x":  1255,
+                                                         "y":  564,
+                                                         "width":  175,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-b302",
+                                                         "name":  "Classroom B302",
+                                                         "x":  1130,
+                                                         "y":  564,
+                                                         "width":  120,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "womens-cr-3f-wingb",
+                                                         "name":  "Women\u0027s CR",
+                                                         "x":  1060,
+                                                         "y":  564,
+                                                         "width":  65,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "womens-cr-b308",
+                                                         "name":  "Women\u0027s CR B308",
+                                                         "x":  990,
+                                                         "y":  564,
+                                                         "width":  55,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "mens-cr-3f-wingb",
+                                                         "name":  "Men\u0027s CR",
+                                                         "x":  990,
+                                                         "y":  564,
+                                                         "width":  65,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "stairs1-wingb-3f",
+                                                         "name":  "Stairs",
+                                                         "x":  930,
+                                                         "y":  564,
+                                                         "width":  55,
+                                                         "height":  80,
+                                                         "type":  "stairs",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "stairs2-wingb-3f",
+                                                         "name":  "Stairs",
+                                                         "x":  1675,
+                                                         "y":  434,
+                                                         "width":  55,
+                                                         "height":  80,
+                                                         "type":  "stairs",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "lecture-room-b309",
+                                                         "name":  "Lecture Room B309",
+                                                         "x":  1520,
+                                                         "y":  434,
+                                                         "width":  120,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "research-lab4-b319",
+                                                         "name":  "Research Lab 4 B319",
+                                                         "x":  1390,
+                                                         "y":  434,
+                                                         "width":  125,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-b305",
+                                                         "name":  "Classroom B305",
+                                                         "x":  1260,
+                                                         "y":  434,
+                                                         "width":  125,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-b303",
+                                                         "name":  "Classroom B303",
+                                                         "x":  1095,
+                                                         "y":  434,
+                                                         "width":  160,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "classroom-b301",
+                                                         "name":  "Classroom B301",
+                                                         "x":  930,
+                                                         "y":  434,
+                                                         "width":  160,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "hallway_wing_b_3_2",
+                                                         "name":  "hallway_wing_b_3_2",
+                                                         "x":  895,
+                                                         "y":  527,
+                                                         "width":  840,
+                                                         "height":  24,
+                                                         "type":  "hallway",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "vertical_hallway_3_1",
+                                                         "name":  "vertical_hallway_3_1",
+                                                         "x":  893,
+                                                         "y":  175,
+                                                         "width":  24,
+                                                         "height":  660,
+                                                         "type":  "hallway",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "pc-lab-8",
+                                                         "name":  "PC Lab 8",
+                                                         "x":  440,
+                                                         "y":  494,
+                                                         "width":  280,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "switch-room-wingb-2f",
+                                                         "name":  "Switch Room",
+                                                         "x":  735,
+                                                         "y":  494,
+                                                         "width":  140,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "mens-cr-2-3f-wingb",
+                                                         "name":  "Men\u0027s CR",
+                                                         "x":  825,
+                                                         "y":  624,
+                                                         "width":  55,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "womens-cr-2-3f-wingb",
+                                                         "name":  "Women\u0027s CR",
+                                                         "x":  815,
+                                                         "y":  344,
+                                                         "width":  65,
+                                                         "height":  60,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "stairs-3f-wingb",
+                                                         "name":  "Stairs",
+                                                         "x":  825,
+                                                         "y":  444,
+                                                         "width":  55,
+                                                         "height":  40,
+                                                         "type":  "stairs",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "ics-lecture-hall-4",
+                                                         "name":  "ICS Lecture Hall 4",
+                                                         "x":  105,
+                                                         "y":  339,
+                                                         "width":  350,
+                                                         "height":  65,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "ics-lecture-hall-3",
+                                                         "name":  "ICS Lecture Hall 3",
+                                                         "x":  460,
+                                                         "y":  339,
+                                                         "width":  350,
+                                                         "height":  65,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "pc-lab-9",
+                                                         "name":  "PC Lab 9",
+                                                         "x":  145,
+                                                         "y":  494,
+                                                         "width":  280,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "pc-lab-7",
+                                                         "name":  "PC Lab 7",
+                                                         "x":  105,
+                                                         "y":  624,
+                                                         "width":  350,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "pc-lab-6",
+                                                         "name":  "PC Lab 6",
+                                                         "x":  465,
+                                                         "y":  624,
+                                                         "width":  350,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     }
+                                                 ],
+                                           "C":  [
+                                                     {
+                                                         "id":  "stairs1-wingc-3f",
+                                                         "name":  "Stairs",
+                                                         "x":  60,
+                                                         "y":  874,
+                                                         "width":  55,
+                                                         "height":  80,
+                                                         "type":  "stairs",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "equipment-room-physics-c330",
+                                                         "name":  "Office C315",
+                                                         "x":  120,
+                                                         "y":  874,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c313",
+                                                         "name":  "Office C313",
+                                                         "x":  200,
+                                                         "y":  874,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c311",
+                                                         "name":  "Office C311",
+                                                         "x":  280,
+                                                         "y":  874,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c309",
+                                                         "name":  "Office C309",
+                                                         "x":  360,
+                                                         "y":  874,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c307",
+                                                         "name":  "Office C307",
+                                                         "x":  440,
+                                                         "y":  874,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c305",
+                                                         "name":  "Office C305",
+                                                         "x":  520,
+                                                         "y":  874,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c303",
+                                                         "name":  "Office C303",
+                                                         "x":  600,
+                                                         "y":  874,
+                                                         "width":  75,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "womens-cr-3f-wingc",
+                                                         "name":  "Women\u0027s CR",
+                                                         "x":  680,
+                                                         "y":  874,
+                                                         "width":  65,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "mens-cr-3f-wingc",
+                                                         "name":  "Men\u0027s CR",
+                                                         "x":  750,
+                                                         "y":  874,
+                                                         "width":  65,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "lounge-c-3f",
+                                                         "name":  "Lounge",
+                                                         "x":  825,
+                                                         "y":  874,
+                                                         "width":  100,
+                                                         "height":  80,
+                                                         "type":  "lounge",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "institute-of-statistics-lecture-hall-3f",
+                                                         "name":  "Institute of Statistics Lecture Hall",
+                                                         "x":  930,
+                                                         "y":  744,
+                                                         "width":  380,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "stairs2-wingc-3f",
+                                                         "name":  "Stairs",
+                                                         "x":  825,
+                                                         "y":  744,
+                                                         "width":  55,
+                                                         "height":  80,
+                                                         "type":  "stairs",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "office-c304",
+                                                         "name":  "Office C304",
+                                                         "x":  620,
+                                                         "y":  744,
+                                                         "width":  95,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c308",
+                                                         "name":  "Office C308",
+                                                         "x":  420,
+                                                         "y":  744,
+                                                         "width":  95,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c310",
+                                                         "name":  "Office C310",
+                                                         "x":  320,
+                                                         "y":  744,
+                                                         "width":  95,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c312",
+                                                         "name":  "Office C312",
+                                                         "x":  220,
+                                                         "y":  744,
+                                                         "width":  95,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c314",
+                                                         "name":  "Office C314",
+                                                         "x":  120,
+                                                         "y":  744,
+                                                         "width":  95,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "hallway_wing_c_3_3",
+                                                         "name":  "hallway_wing_c_3_3",
+                                                         "x":  45,
+                                                         "y":  837,
+                                                         "width":  1270,
+                                                         "height":  24,
+                                                         "type":  "hallway",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "classroom-c306",
+                                                         "name":  "Office C306",
+                                                         "x":  520,
+                                                         "y":  744,
+                                                         "width":  95,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "office-c302",
+                                                         "name":  "Office C302",
+                                                         "x":  720,
+                                                         "y":  744,
+                                                         "width":  95,
+                                                         "height":  80,
+                                                         "type":  "room",
+                                                         "passable":  false
+                                                     },
+                                                     {
+                                                         "id":  "hallway_wing_a_3_5",
+                                                         "name":  "hallway_wing_a_3_5",
+                                                         "x":  105,
+                                                         "y":  584,
+                                                         "width":  800,
+                                                         "height":  24,
+                                                         "type":  "hallway",
+                                                         "passable":  true
+                                                     },
+                                                     {
+                                                         "id":  "vertical_hallway_3_3",
+                                                         "name":  "vertical_hallway_3_3",
+                                                         "x":  105,
+                                                         "y":  434,
+                                                         "width":  24,
+                                                         "height":  150,
+                                                         "type":  "hallway",
+                                                         "passable":  true
+                                                     }
+                                                 ]
+                                       },
+                             "bridges":  {
+                                             "AB":  {
+                                                        "id":  "bridge-a314-to-stairs",
+                                                        "name":  "Bridge Hallway",
+                                                        "x":  885,
+                                                        "y":  260,
+                                                        "width":  40,
+                                                        "height":  100,
+                                                        "type":  "bridge",
+                                                        "passable":  true
+                                                    },
+                                             "BC":  {
+                                                        "id":  "bridge-b306-to-c306",
+                                                        "name":  "Bridge Hallway",
+                                                        "x":  885,
+                                                        "y":  674,
+                                                        "width":  40,
+                                                        "height":  100,
+                                                        "type":  "bridge",
+                                                        "passable":  true
+                                                    }
+                                         }
+                         }
+               }
+}

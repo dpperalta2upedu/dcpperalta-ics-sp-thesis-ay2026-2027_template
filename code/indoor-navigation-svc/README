@@ -1,0 +1,75 @@
+# Indoor Navigation Service
+
+FastAPI backend for indoor route search, map-layout management, authentication, and an admin-only sandbox. MariaDB is the system of record for application accounts, layouts, drafts, history, and route caches.
+
+## Requirements
+
+- Python 3.11
+- MariaDB or MySQL compatible with the schema in `sql/indoor_navigation_db.sql`
+- Optional: Conda, Docker, or Render for the matching deployment workflow
+
+## Local setup
+
+From the repository root:
+
+```powershell
+conda create -n indoor-svc python=3.11
+conda activate indoor-svc
+pip install -r requirements.txt
+```
+
+Conda is optional. A regular Python virtual environment works as well.
+
+### Database setup
+
+For a local database, initialize the schema and bundled seed data with an administrator account:
+
+```powershell
+Get-Content -Raw sql/initialize_db.sql | & "C:\Program Files\MariaDB 10.5\bin\mysql.exe" --host=127.0.0.1 --port=3306 --user=root -p
+```
+
+This creates the `indoor_navigation_db` database and imports sanitized layout seed data. Before starting the service, configure these required values in your deployment environment:
+
+- Host: `127.0.0.1`
+- Port: `3306`
+- Database: `indoor_navigation_db`
+- `INDOOR_NAV_DB_USER` and `INDOOR_NAV_DB_PASSWORD`
+- `INDOOR_NAV_SESSION_SECRET`
+- `INDOOR_NAV_INITIAL_ADMIN_USERNAME` and `INDOOR_NAV_INITIAL_ADMIN_PASSWORD` when the database has no application account
+
+The database host, port, database name, and database user have development-friendly defaults. `INDOOR_NAV_DB_PASSWORD` does not. For first-time account creation by the service, also provide both `INDOOR_NAV_DB_BOOTSTRAP_USER` and `INDOOR_NAV_DB_BOOTSTRAP_PASSWORD`; the optional bootstrap host, port, and application-account host variables are documented in `.env.render.example`.
+
+See [DATABASE_README.md](DATABASE_README.md) for the persistence model and full API route list.
+
+### Start the service
+
+```powershell
+uvicorn main:app --reload
+```
+
+Verify it at <http://127.0.0.1:8000/status>.
+
+The first application account is created from `INDOOR_NAV_INITIAL_ADMIN_USERNAME` and `INDOOR_NAV_INITIAL_ADMIN_PASSWORD`. Set a strong, stable `INDOOR_NAV_SESSION_SECRET` for every environment.
+
+## Runtime behavior
+
+- On startup, the service ensures the MariaDB schema is current and creates the initial application account only when the account table is empty.
+- Layouts, drafts, history, and graph caches are stored in MariaDB. A current layout is required before route search can succeed.
+- `data/` and `map-layouts-copy/` are legacy JSON import sources. If present, they are imported only when their corresponding database records do not exist. They are not the ongoing source of truth.
+- Main routes are public. All `/sandbox/*` routes require either the application session cookie or valid HTTP Basic credentials.
+
+## Sandbox UI
+
+The backend mounts sandbox endpoints under `/sandbox`. Run the separate frontend repository (`../indoor-navigation-ui`) and open its `/sandbox` page. The sandbox has its own layouts, drafts, history, and route caches within the same database.
+
+## Deployment
+
+`render.yaml` defines a Render Web Service using:
+
+- Build: `pip install -r requirements.txt`
+- Start: `uvicorn main:app --host 0.0.0.0 --port $PORT`
+- Health check: `/status`
+
+Copy `.env.render.example` to configure database connectivity, initial administrator credentials, `INDOOR_NAV_SESSION_SECRET`, and `CORS_ALLOW_ORIGINS`. On Render, use a reachable external/private MariaDB or MySQL service; this repository does not provision one.
+
+`Dockerfile` supports Docker-based deployment. `deploy-service.sh` is an optional host-side Docker deployment helper, not part of the Render workflow.

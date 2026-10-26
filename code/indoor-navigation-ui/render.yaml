@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: indoor-navigation-ui
+    runtime: static
+    plan: free
+    buildCommand: npm run build
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: VITE_SERVICE_BASE_URL
+        sync: false
+      - key: VITE_UI_MAIN_LAYOUT_BACKUP_URL
+        value: off
+      - key: VITE_SANDBOX_UI_MAIN_LAYOUT_BACKUP_URL
+        value: off

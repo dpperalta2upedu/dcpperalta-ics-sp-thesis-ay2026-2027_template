@@ -1,0 +1,71 @@
+Service Layer Features
+
+services/navigation_service.py
+- Builds navigation graph from hallway, room, and stair nodes.
+- Loads graph from `data/navigation_graph_cache.json` when valid.
+- Validates cache integrity using required nodes, required edges, and key hallway coordinates.
+- Invalidates cache when map-driven coordinates drift from expected anchors.
+- Rebuilds cache on demand via `NavigationService.rebuild_graph_cache()`.
+- Adds auto hallway backbone edges by floor/wing row grouping.
+- Applies explicit routing topology edges for Wing A, Wing B, Wing C, and bridge connectors.
+- Connects Main Entrance to nearest hallways with bounded fan-out.
+- Connects stairs to compatible same-wing transit hallways first.
+- Connects rooms into corridor graph using hallway-segment attachment.
+- Re-stitches hallway backbone after room/junction insertion.
+- Adds colinear door-to-door links when unobstructed.
+- Adds safe stair-to-door fallback links when hallway transit is missing.
+- Prunes unsafe hallway/stair and door/door shortcuts that cut through room interiors.
+- Enforces forbidden shortcut removals (e.g., known bad direct cross-room connector).
+- Creates landing nodes per stair and enforces floor-correct landing behavior.
+- Connects stairs vertically by adjacent floors only.
+- Removes invalid cross-wing landing/vertical links.
+- Supports debug adjacency logging via `DEBUG_GRAPH_CONNECTIVITY=1`.
+- Resolves origin/destination strictly from explicit input, aliases, and normalized text match.
+- Returns explicit errors for unknown origin/destination.
+- Computes A* route between resolved nodes.
+- Forces bridge waypoints for cross-wing transfers (A-B, B-C, A-C).
+- Supports destination/origin-specific forced waypoints (e.g., Reflection Pool handling).
+- Simplifies display path while preserving critical hallway and bridge nodes.
+- Keeps room endpoint logical path but renders route to door endpoint for clean geometry.
+- Generates full SVG route path plus per-floor SVG route fragments.
+- Returns structured route payload with `origin_point`, `destination_point`, `route`, `floor_routes`, and node `path`.
+
+services/navigation_graph.py
+- Stores nodes, undirected edges, adjacency, and floor/type indexes.
+- Adds/removes edges with duplicate protection.
+- Maintains cached edge-room collision checks for performance.
+- Uses weighted distance: horizontal distance + floor-change penalty + junction penalty.
+- Uses A* pathfinding with heuristic based on Euclidean distance.
+- Enforces strict geometry by skipping edges that cross non-passable room interiors.
+- Reconstructs node path from A* parent map.
+- Produces path step details including per-segment distance and centered room coordinates.
+- Serializes graph to dict/JSON.
+- Deserializes graph from dict/JSON.
+
+services/building_config.py
+- Loads canonical layout from `map_layout.json` through `utils.map_layout.load_map_layout`.
+- Normalizes layout space types (`room`, `stairs`, `hallway`, `main-entrance`).
+- Includes `routingHallways` as routing-only hallway inputs.
+- Tracks `passable` metadata from layout for collision-aware routing.
+- Applies layout coordinate overrides onto generated nodes.
+- Applies Main Entrance coordinates from layout (`mainEntrance` or entrance space fallback).
+- Aligns bridge routing anchors to actual bridge geometry centers from `floors[*].bridges`.
+- Aligns B-C connector hallways and A-B connector hallways to bridge centerline.
+- Generates Wing A hallway defaults and merges Wing B/C/bridge hallways from layout.
+- Generates Wing A room defaults and sources Wing B/C rooms from layout.
+- Drops legacy unmatched rooms when layout-matched room set is present.
+- Generates Wing A stairs and sources Wing B/C stairs from layout.
+- Canonicalizes Wing B/C stair IDs to routing IDs expected by topology.
+- Connects each room to the best hallway segment on the same floor (same-wing preference).
+- Inserts hallway junction nodes by splitting hallway segments at projection point.
+- Creates room door nodes on nearest room wall toward target corridor point.
+- Adds bypass waypoints when direct door-to-junction segment crosses other rooms.
+- Keeps room reachable with safe fallbacks under inconsistent layouts.
+- Exposes reusable geometry utility `line_intersects_rect`.
+
+services/routing_topology.py
+- Declares static Wing B hallway/stair routing edge set.
+- Declares static Wing C hallway/stair routing edge set.
+- Declares static bridge routing edge set:
+- A-B bridge connector on 1F.
+- B-C bridge connectors on 1F, 2F, and 3F.

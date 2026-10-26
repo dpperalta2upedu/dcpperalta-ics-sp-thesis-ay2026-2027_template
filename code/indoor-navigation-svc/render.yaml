@@ -1,0 +1,35 @@
+services:
+  - type: web
+    name: indoor-navigation-svc
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /status
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: PYTHONDONTWRITEBYTECODE
+        value: "1"
+      - key: INDOOR_NAV_DB_HOST
+        sync: false
+      - key: INDOOR_NAV_DB_PORT
+        value: "3306"
+      - key: INDOOR_NAV_DB_NAME
+        value: indoor_navigation_db
+      - key: INDOOR_NAV_DB_USER
+        sync: false
+      - key: INDOOR_NAV_DB_PASSWORD
+        sync: false
+      - key: INDOOR_NAV_DB_BOOTSTRAP_HOST
+        sync: false
+      - key: INDOOR_NAV_DB_BOOTSTRAP_PORT
+        value: "3306"
+      - key: INDOOR_NAV_DB_BOOTSTRAP_USER
+        sync: false
+      - key: INDOOR_NAV_DB_BOOTSTRAP_PASSWORD
+        sync: false
+      - key: INDOOR_NAV_SESSION_SECRET
+        generateValue: true
+      - key: CORS_ALLOW_ORIGINS
+        sync: false

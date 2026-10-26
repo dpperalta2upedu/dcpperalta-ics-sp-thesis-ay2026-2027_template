@@ -1,0 +1,16 @@
+from __future__ import annotations
+
+from services.layout_route_cache_service import LayoutRouteCacheService
+from sandbox.services.sb_draft_main_map_layout_service import SandboxDraftMainMapLayoutService
+from sandbox.services.sb_main_map_layout_history_service import SandboxMainMapLayoutHistoryService
+from sandbox.services.sb_main_map_layout_service import SandboxMainMapLayoutService
+from sandbox.services.sb_navigation_graph_cache_service import NavigationGraphCacheService
+from sandbox.services.sb_navigation_service import SandboxNavigationService
+
+
+class SandboxLayoutRouteCacheService(LayoutRouteCacheService):
+    DRAFT_SERVICE = SandboxDraftMainMapLayoutService
+    HISTORY_SERVICE = SandboxMainMapLayoutHistoryService
+    LAYOUT_SERVICE = SandboxMainMapLayoutService
+    CACHE_SERVICE = NavigationGraphCacheService
+    NAVIGATION_SERVICE = SandboxNavigationService

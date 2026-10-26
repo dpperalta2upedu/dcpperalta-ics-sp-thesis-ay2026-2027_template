@@ -1,0 +1,115 @@
+# Indoor Navigation UI
+
+A React and TypeScript single-page application for indoor route search, map visualization, and authenticated floor-layout editing.
+
+## Prerequisites
+
+- Node.js 20 or later (Node 20 is used by the Dockerfile and Render configuration)
+- The indoor-navigation backend when using search, login, layout persistence, or sandbox features
+
+On Windows, [nvm-windows](https://github.com/coreybutler/nvm-windows/releases) is one way to install and switch Node versions.
+
+## Run locally
+
+1. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+2. Start the Vite development server:
+
+   ```bash
+   npm run dev
+   ```
+
+3. Open the application at `http://localhost:5173/`. The sandbox application is available at `http://localhost:5173/sandbox`.
+
+With no environment variables set, the UI uses `/api` and the Vite dev server proxies the supported API paths to `http://127.0.0.1:8000`. Start the backend there, or configure the service URLs described below.
+
+## Build and preview
+
+```bash
+npm run build
+npm run preview
+```
+
+`npm run preview` serves the generated `dist/` files locally; it does not provide the development API proxy.
+
+`npm run lint` is available, but the current codebase has existing lint violations, primarily in the sandbox components. It is not presently a passing quality gate.
+
+## Application routes and access
+
+- `/` — route search and map visualization.
+- `#/configurator` — authenticated layout builder. Unauthenticated visitors are returned to the home screen.
+- `/sandbox` — sandbox application with its own admin credentials when it uses a separate service.
+
+The main session is stored in browser local storage and expires after eight hours. The application uses hash routing for the configurator, so a static host only needs an SPA fallback for pathname routes such as `/sandbox`.
+
+## Main technologies
+
+- React 18, TypeScript, and Vite
+- `react-konva` / Konva for the layout-editing canvas
+- SVG and Three.js for map and route views
+- `mdb-react-ui-kit` and Font Awesome for UI styling
+
+The canonical layout schema and renderers are in `src/layout/`. The checked-in main layout artifact is `src/data/main_layout.json`; the sandbox copy is `sandbox/data/main_layout.json`.
+
+## Backend integration
+
+The main application calls the configured service for login, search, and layouts. The layout builder uses endpoints including:
+
+- `GET /map-layout`
+- `GET /draft-maps` and `POST /draft-maps/save`
+- `POST /draft-maps/delete`
+- `GET /map-layout-history`
+- `POST /map-layout/publish`
+
+The sandbox uses the corresponding paths below its sandbox service URL, as well as `GET /status` and `POST /layout-arranger/plan`.
+
+### Environment variables
+
+Vite embeds `VITE_*` variables when the application is built. Set them before `npm run build`; changing them after a static build is deployed does not change the bundle.
+
+| Variable | Default | Purpose |
+| --- | --- | --- |
+| `VITE_SERVICE_BASE_URL` | `/api` | Base URL for the main backend. |
+| `VITE_SANDBOX_SERVICE_BASE_URL` | `<VITE_SERVICE_BASE_URL>/sandbox` | Base URL for the sandbox backend. |
+| `VITE_UI_MAIN_LAYOUT_BACKUP_URL` | `<VITE_SERVICE_BASE_URL>/ui-main-layout/save` | Optional main-layout backup endpoint. Set to `off` to disable it. |
+| `VITE_SANDBOX_UI_MAIN_LAYOUT_BACKUP_URL` | `<VITE_SANDBOX_SERVICE_BASE_URL>/ui-main-layout/save` | Optional sandbox-layout backup endpoint. Set to `off` to disable it. |
+
+For a separately hosted frontend, use an absolute backend URL, for example:
+
+```env
+VITE_SERVICE_BASE_URL=https://your-backend-service.example.com
+VITE_UI_MAIN_LAYOUT_BACKUP_URL=off
+VITE_SANDBOX_UI_MAIN_LAYOUT_BACKUP_URL=off
+```
+
+The backend must permit the frontend origin through CORS when the URL is on another origin.
+
+## Local layout backups
+
+During `npm run dev`, Vite handles these local-only POST routes and writes the checked-in JSON artifacts:
+
+- `/api/ui-main-layout/save` → `src/data/main_layout.json`
+- `/api/sandbox/ui-main-layout/save` → `sandbox/data/main_layout.json`
+
+These handlers are not included in `npm run build` output. In a deployed build, configure the matching backend endpoint or set the appropriate backup variable to `off`.
+
+## Render deployment
+
+This repository includes `render.yaml` for a Render Static Site:
+
+1. Push the repository to GitHub or GitLab.
+2. Create a Render Blueprint from `render.yaml`.
+3. Set `VITE_SERVICE_BASE_URL` to the public backend URL, without appending `/api`.
+4. Deploy.
+
+The blueprint runs `npm run build`, publishes `dist`, and rewrites `/*` to `/index.html`. It disables both optional layout-backup URLs by default. See `.env.render.example` for the same environment-variable template.
+
+## Docker and EC2 note
+
+The Dockerfile builds the static bundle and serves it with Nginx. It does not inject Vite environment variables at container runtime, so provide the `VITE_*` values during the image build (for example through a build-time `.env.production.local` file) and rebuild whenever they change.
+
+`deploy-ui.sh` builds and runs that image on an existing Docker network. It can expose ports 80 and 443 when certificate files exist, but the current Nginx configuration only supplies the base Nginx settings; it does not configure TLS virtual hosts, ACME handling, or an `/api` reverse proxy. Configure those server blocks and the backend connection before relying on this script for an HTTPS or same-origin API deployment.

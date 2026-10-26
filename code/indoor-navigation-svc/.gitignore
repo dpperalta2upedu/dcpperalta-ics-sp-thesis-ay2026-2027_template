@@ -1,0 +1,11 @@
+# Byte-compiled / optimized / DLL files
+__pycache__
+*.pyc
+
+# Local secrets and legacy credential exports
+.env
+.env.*
+!.env.render.example
+data/auth_credentials.json
+map-layouts-copy/auth_credentials.json
+

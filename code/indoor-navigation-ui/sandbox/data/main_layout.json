@@ -1,0 +1,885 @@
+{
+  "version": 1,
+  "units": "px",
+  "viewBox": {
+    "w": 1768,
+    "h": 930
+  },
+  "grid": {
+    "size": 40
+  },
+  "mainEntrance": {
+    "x": 885,
+    "y": 80
+  },
+  "floors": {
+    "1": {
+      "wingBackgrounds": {
+        "A": {
+          "x": 40,
+          "y": 120,
+          "width": 520,
+          "height": 560,
+          "r": 10
+        },
+        "B": {
+          "x": 600,
+          "y": 120,
+          "width": 520,
+          "height": 560,
+          "r": 10
+        },
+        "C": {
+          "x": 1160,
+          "y": 160,
+          "width": 520,
+          "height": 560,
+          "r": 10
+        }
+      },
+      "routingHallways": [],
+      "wings": {
+        "A": [
+          {
+            "id": "stairs-A-1-academic-1-A",
+            "name": "Stairs",
+            "x": 80,
+            "y": 160,
+            "width": 80,
+            "height": 80,
+            "type": "stairs",
+            "passable": true
+          },
+          {
+            "id": "hallway-A-1-academic-1-A-1",
+            "name": "Hallway A",
+            "x": 160,
+            "y": 285,
+            "width": 200,
+            "height": 40,
+            "type": "hallway",
+            "passable": true
+          },
+          {
+            "id": "A11",
+            "name": "Classroom 1",
+            "x": 160,
+            "y": 160,
+            "width": 200,
+            "height": 120,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "A12",
+            "name": "Classroom 2",
+            "x": 160,
+            "y": 330,
+            "width": 200,
+            "height": 120,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "lounge-A-1-academic-1-A",
+            "name": "Lounge",
+            "x": 370,
+            "y": 160,
+            "width": 160,
+            "height": 120,
+            "type": "lounge",
+            "passable": true
+          },
+          {
+            "id": "hallway-A-1-academic-1-A-2",
+            "name": "Hallway A",
+            "x": 160,
+            "y": 585,
+            "width": 200,
+            "height": 40,
+            "type": "hallway",
+            "passable": true
+          },
+          {
+            "id": "A13",
+            "name": "Classroom 3",
+            "x": 160,
+            "y": 460,
+            "width": 200,
+            "height": 120,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "bridge-AB-1",
+            "name": "Bridge AB",
+            "x": 360,
+            "y": 285,
+            "width": 360,
+            "height": 40,
+            "type": "bridge",
+            "passable": true
+          }
+        ],
+        "B": [
+          {
+            "id": "stairs-B-1-academic-1-B",
+            "name": "Stairs",
+            "x": 635,
+            "y": 160,
+            "width": 80,
+            "height": 80,
+            "type": "stairs",
+            "passable": true
+          },
+          {
+            "id": "hallway-B-1-academic-1-B-1",
+            "name": "Hallway B",
+            "x": 720,
+            "y": 285,
+            "width": 200,
+            "height": 40,
+            "type": "hallway",
+            "passable": true
+          },
+          {
+            "id": "B11",
+            "name": "Classroom 1",
+            "x": 720,
+            "y": 160,
+            "width": 200,
+            "height": 120,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "B12",
+            "name": "Classroom 2",
+            "x": 720,
+            "y": 330,
+            "width": 200,
+            "height": 120,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "lounge-B-1-academic-1-B",
+            "name": "Lounge",
+            "x": 930,
+            "y": 160,
+            "width": 160,
+            "height": 120,
+            "type": "lounge",
+            "passable": true
+          },
+          {
+            "id": "hallway-B-1-academic-1-B-2",
+            "name": "Hallway B",
+            "x": 720,
+            "y": 585,
+            "width": 200,
+            "height": 40,
+            "type": "hallway",
+            "passable": true
+          },
+          {
+            "id": "B13",
+            "name": "Classroom 3",
+            "x": 720,
+            "y": 460,
+            "width": 200,
+            "height": 120,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "bridge-BC-1",
+            "name": "Bridge BC",
+            "x": 920,
+            "y": 305,
+            "width": 360,
+            "height": 40,
+            "type": "bridge",
+            "passable": true
+          },
+          {
+            "id": "main-entrance-floor-1",
+            "name": "Main Entrance",
+            "x": 765,
+            "y": 40,
+            "width": 240,
+            "height": 80,
+            "type": "entrance",
+            "passable": true
+          }
+        ],
+        "C": [
+          {
+            "id": "stairs-C-1-academic-1-C",
+            "name": "Stairs",
+            "x": 1195,
+            "y": 200,
+            "width": 80,
+            "height": 80,
+            "type": "stairs",
+            "passable": true
+          },
+          {
+            "id": "hallway-C-1-academic-1-C-1",
+            "name": "Hallway C",
+            "x": 1280,
+            "y": 325,
+            "width": 200,
+            "height": 40,
+            "type": "hallway",
+            "passable": true
+          },
+          {
+            "id": "C11",
+            "name": "Classroom 1",
+            "x": 1280,
+            "y": 200,
+            "width": 200,
+            "height": 120,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "C12",
+            "name": "Classroom 2",
+            "x": 1280,
+            "y": 370,
+            "width": 200,
+            "height": 120,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "lounge-C-1-academic-1-C",
+            "name": "Lounge",
+            "x": 1490,
+            "y": 200,
+            "width": 160,
+            "height": 120,
+            "type": "lounge",
+            "passable": true
+          },
+          {
+            "id": "hallway-C-1-academic-1-C-2",
+            "name": "Hallway C",
+            "x": 1280,
+            "y": 625,
+            "width": 200,
+            "height": 40,
+            "type": "hallway",
+            "passable": true
+          },
+          {
+            "id": "C13",
+            "name": "Classroom 3",
+            "x": 1280,
+            "y": 500,
+            "width": 200,
+            "height": 120,
+            "type": "room",
+            "passable": false
+          }
+        ]
+      },
+      "bridges": {
+        "AB": {
+          "id": "bridge-ab",
+          "name": "Bridge AB",
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1,
+          "type": "bridge",
+          "passable": true
+        },
+        "BC": {
+          "id": "bridge-bc",
+          "name": "Bridge BC",
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1,
+          "type": "bridge",
+          "passable": true
+        }
+      }
+    },
+    "2": {
+      "wingBackgrounds": {
+        "A": {
+          "x": 40,
+          "y": 120,
+          "width": 440,
+          "height": 440,
+          "r": 10
+        },
+        "B": {
+          "x": 600,
+          "y": 120,
+          "width": 440,
+          "height": 440,
+          "r": 10
+        },
+        "C": {
+          "x": 1160,
+          "y": 160,
+          "width": 440,
+          "height": 440,
+          "r": 10
+        }
+      },
+      "routingHallways": [],
+      "wings": {
+        "A": [
+          {
+            "id": "stairs-A-2-academic-2-A",
+            "name": "Stairs",
+            "x": 80,
+            "y": 160,
+            "width": 80,
+            "height": 80,
+            "type": "stairs",
+            "passable": true
+          },
+          {
+            "id": "hallway-A-2-academic-2-A-1",
+            "name": "Hallway A",
+            "x": 160,
+            "y": 245,
+            "width": 120,
+            "height": 40,
+            "type": "hallway",
+            "passable": true
+          },
+          {
+            "id": "A21",
+            "name": "Faculty Room 1",
+            "x": 160,
+            "y": 160,
+            "width": 120,
+            "height": 80,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "A22",
+            "name": "Faculty Room 2",
+            "x": 160,
+            "y": 290,
+            "width": 120,
+            "height": 80,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "lounge-A-2-academic-2-A",
+            "name": "Lounge",
+            "x": 290,
+            "y": 160,
+            "width": 160,
+            "height": 120,
+            "type": "lounge",
+            "passable": true
+          },
+          {
+            "id": "hallway-A-2-academic-2-A-2",
+            "name": "Hallway A",
+            "x": 160,
+            "y": 465,
+            "width": 120,
+            "height": 40,
+            "type": "hallway",
+            "passable": true
+          },
+          {
+            "id": "A23",
+            "name": "Faculty Room 3",
+            "x": 160,
+            "y": 380,
+            "width": 120,
+            "height": 80,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "bridge-AB-2",
+            "name": "Bridge AB",
+            "x": 280,
+            "y": 245,
+            "width": 440,
+            "height": 40,
+            "type": "bridge",
+            "passable": true
+          }
+        ],
+        "B": [
+          {
+            "id": "stairs-B-2-academic-2-B",
+            "name": "Stairs",
+            "x": 635,
+            "y": 160,
+            "width": 80,
+            "height": 80,
+            "type": "stairs",
+            "passable": true
+          },
+          {
+            "id": "hallway-B-2-academic-2-B-1",
+            "name": "Hallway B",
+            "x": 720,
+            "y": 245,
+            "width": 120,
+            "height": 40,
+            "type": "hallway",
+            "passable": true
+          },
+          {
+            "id": "B21",
+            "name": "Faculty Room 1",
+            "x": 720,
+            "y": 160,
+            "width": 120,
+            "height": 80,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "B22",
+            "name": "Faculty Room 2",
+            "x": 720,
+            "y": 290,
+            "width": 120,
+            "height": 80,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "lounge-B-2-academic-2-B",
+            "name": "Lounge",
+            "x": 850,
+            "y": 160,
+            "width": 160,
+            "height": 120,
+            "type": "lounge",
+            "passable": true
+          },
+          {
+            "id": "hallway-B-2-academic-2-B-2",
+            "name": "Hallway B",
+            "x": 720,
+            "y": 465,
+            "width": 120,
+            "height": 40,
+            "type": "hallway",
+            "passable": true
+          },
+          {
+            "id": "B23",
+            "name": "Faculty Room 3",
+            "x": 720,
+            "y": 380,
+            "width": 120,
+            "height": 80,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "bridge-BC-2",
+            "name": "Bridge BC",
+            "x": 840,
+            "y": 265,
+            "width": 440,
+            "height": 40,
+            "type": "bridge",
+            "passable": true
+          }
+        ],
+        "C": [
+          {
+            "id": "stairs-C-2-academic-2-C",
+            "name": "Stairs",
+            "x": 1195,
+            "y": 200,
+            "width": 80,
+            "height": 80,
+            "type": "stairs",
+            "passable": true
+          },
+          {
+            "id": "hallway-C-2-academic-2-C-1",
+            "name": "Hallway C",
+            "x": 1280,
+            "y": 285,
+            "width": 120,
+            "height": 40,
+            "type": "hallway",
+            "passable": true
+          },
+          {
+            "id": "C21",
+            "name": "Faculty Room 1",
+            "x": 1280,
+            "y": 200,
+            "width": 120,
+            "height": 80,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "C22",
+            "name": "Faculty Room 2",
+            "x": 1280,
+            "y": 330,
+            "width": 120,
+            "height": 80,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "lounge-C-2-academic-2-C",
+            "name": "Lounge",
+            "x": 1410,
+            "y": 200,
+            "width": 160,
+            "height": 120,
+            "type": "lounge",
+            "passable": true
+          },
+          {
+            "id": "hallway-C-2-academic-2-C-2",
+            "name": "Hallway C",
+            "x": 1280,
+            "y": 505,
+            "width": 120,
+            "height": 40,
+            "type": "hallway",
+            "passable": true
+          },
+          {
+            "id": "C23",
+            "name": "Faculty Room 3",
+            "x": 1280,
+            "y": 420,
+            "width": 120,
+            "height": 80,
+            "type": "room",
+            "passable": false
+          }
+        ]
+      },
+      "bridges": {
+        "AB": {
+          "id": "bridge-ab",
+          "name": "Bridge AB",
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1,
+          "type": "bridge",
+          "passable": true
+        },
+        "BC": {
+          "id": "bridge-bc",
+          "name": "Bridge BC",
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1,
+          "type": "bridge",
+          "passable": true
+        }
+      }
+    },
+    "3": {
+      "wingBackgrounds": {
+        "A": {
+          "x": 40,
+          "y": 120,
+          "width": 440,
+          "height": 440,
+          "r": 10
+        },
+        "B": {
+          "x": 600,
+          "y": 120,
+          "width": 440,
+          "height": 440,
+          "r": 10
+        },
+        "C": {
+          "x": 1160,
+          "y": 160,
+          "width": 440,
+          "height": 440,
+          "r": 10
+        }
+      },
+      "routingHallways": [],
+      "wings": {
+        "A": [
+          {
+            "id": "stairs-A-3-academic-3-A",
+            "name": "Stairs",
+            "x": 80,
+            "y": 160,
+            "width": 80,
+            "height": 80,
+            "type": "stairs",
+            "passable": true
+          },
+          {
+            "id": "hallway-A-3-academic-3-A-1",
+            "name": "Hallway A",
+            "x": 160,
+            "y": 245,
+            "width": 120,
+            "height": 40,
+            "type": "hallway",
+            "passable": true
+          },
+          {
+            "id": "A31",
+            "name": "Faculty Room 1",
+            "x": 160,
+            "y": 160,
+            "width": 120,
+            "height": 80,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "A32",
+            "name": "Faculty Room 2",
+            "x": 160,
+            "y": 290,
+            "width": 120,
+            "height": 80,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "lounge-A-3-academic-3-A",
+            "name": "Lounge",
+            "x": 290,
+            "y": 160,
+            "width": 160,
+            "height": 120,
+            "type": "lounge",
+            "passable": true
+          },
+          {
+            "id": "hallway-A-3-academic-3-A-2",
+            "name": "Hallway A",
+            "x": 160,
+            "y": 465,
+            "width": 120,
+            "height": 40,
+            "type": "hallway",
+            "passable": true
+          },
+          {
+            "id": "A33",
+            "name": "Faculty Room 3",
+            "x": 160,
+            "y": 380,
+            "width": 120,
+            "height": 80,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "bridge-AB-3",
+            "name": "Bridge AB",
+            "x": 280,
+            "y": 245,
+            "width": 440,
+            "height": 40,
+            "type": "bridge",
+            "passable": true
+          }
+        ],
+        "B": [
+          {
+            "id": "stairs-B-3-academic-3-B",
+            "name": "Stairs",
+            "x": 635,
+            "y": 160,
+            "width": 80,
+            "height": 80,
+            "type": "stairs",
+            "passable": true
+          },
+          {
+            "id": "hallway-B-3-academic-3-B-1",
+            "name": "Hallway B",
+            "x": 720,
+            "y": 245,
+            "width": 120,
+            "height": 40,
+            "type": "hallway",
+            "passable": true
+          },
+          {
+            "id": "B31",
+            "name": "Faculty Room 1",
+            "x": 720,
+            "y": 160,
+            "width": 120,
+            "height": 80,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "B32",
+            "name": "Faculty Room 2",
+            "x": 720,
+            "y": 290,
+            "width": 120,
+            "height": 80,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "lounge-B-3-academic-3-B",
+            "name": "Lounge",
+            "x": 850,
+            "y": 160,
+            "width": 160,
+            "height": 120,
+            "type": "lounge",
+            "passable": true
+          },
+          {
+            "id": "hallway-B-3-academic-3-B-2",
+            "name": "Hallway B",
+            "x": 720,
+            "y": 465,
+            "width": 120,
+            "height": 40,
+            "type": "hallway",
+            "passable": true
+          },
+          {
+            "id": "B33",
+            "name": "Faculty Room 3",
+            "x": 720,
+            "y": 380,
+            "width": 120,
+            "height": 80,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "bridge-BC-3",
+            "name": "Bridge BC",
+            "x": 840,
+            "y": 265,
+            "width": 440,
+            "height": 40,
+            "type": "bridge",
+            "passable": true
+          }
+        ],
+        "C": [
+          {
+            "id": "stairs-C-3-academic-3-C",
+            "name": "Stairs",
+            "x": 1195,
+            "y": 200,
+            "width": 80,
+            "height": 80,
+            "type": "stairs",
+            "passable": true
+          },
+          {
+            "id": "hallway-C-3-academic-3-C-1",
+            "name": "Hallway C",
+            "x": 1280,
+            "y": 285,
+            "width": 120,
+            "height": 40,
+            "type": "hallway",
+            "passable": true
+          },
+          {
+            "id": "C31",
+            "name": "Faculty Room 1",
+            "x": 1280,
+            "y": 200,
+            "width": 120,
+            "height": 80,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "C32",
+            "name": "Faculty Room 2",
+            "x": 1280,
+            "y": 330,
+            "width": 120,
+            "height": 80,
+            "type": "room",
+            "passable": false
+          },
+          {
+            "id": "lounge-C-3-academic-3-C",
+            "name": "Lounge",
+            "x": 1410,
+            "y": 200,
+            "width": 160,
+            "height": 120,
+            "type": "lounge",
+            "passable": true
+          },
+          {
+            "id": "hallway-C-3-academic-3-C-2",
+            "name": "Hallway C",
+            "x": 1280,
+            "y": 505,
+            "width": 120,
+            "height": 40,
+            "type": "hallway",
+            "passable": true
+          },
+          {
+            "id": "C33",
+            "name": "Faculty Room 3",
+            "x": 1280,
+            "y": 420,
+            "width": 120,
+            "height": 80,
+            "type": "room",
+            "passable": false
+          }
+        ]
+      },
+      "bridges": {
+        "AB": {
+          "id": "bridge-ab",
+          "name": "Bridge AB",
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1,
+          "type": "bridge",
+          "passable": true
+        },
+        "BC": {
+          "id": "bridge-bc",
+          "name": "Bridge BC",
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1,
+          "type": "bridge",
+          "passable": true
+        }
+      }
+    }
+  }
+}

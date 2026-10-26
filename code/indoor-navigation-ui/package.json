@@ -1,0 +1,39 @@
+{
+  "name": "indoor-navigation-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "konva": "^9.3.22",
+    "mdb-react-ui-kit": "^10.0.0",
+    "pdfjs-dist": "^6.0.227",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-konva": "^18.2.10",
+    "react-zoom-pan-pinch": "^3.7.0",
+    "three": "^0.174.0",
+    "utif": "^3.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/node": "^24.10.1",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/three": "^0.174.0",
+    "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.46.4",
+    "vite": "^7.2.4"
+  }
+}

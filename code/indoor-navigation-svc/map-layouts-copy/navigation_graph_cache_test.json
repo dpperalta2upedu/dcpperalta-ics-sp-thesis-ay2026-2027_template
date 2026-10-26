@@ -1,0 +1,5067 @@
+{
+  "nodes": [
+    {
+      "id": "main entrance",
+      "x": 875,
+      "y": 575,
+      "floor": 1,
+      "wing": "A",
+      "name": "Main Entrance",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "hall_1_0",
+      "x": 820,
+      "y": -125,
+      "floor": 1,
+      "wing": "A",
+      "name": "hall_1_0",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "hall_1_turn_right",
+      "x": 795,
+      "y": -125,
+      "floor": 1,
+      "wing": "A",
+      "name": "hall_1_turn_right",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "hall_1_turn",
+      "x": 970,
+      "y": -125,
+      "floor": 1,
+      "wing": "A",
+      "name": "hall_1_turn",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "hall_1_1",
+      "x": 1650,
+      "y": -125,
+      "floor": 1,
+      "wing": "A",
+      "name": "hall_1_1",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "hall_1_2",
+      "x": 535,
+      "y": -125,
+      "floor": 1,
+      "wing": "A",
+      "name": "hall_1_2",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "hallway_wing_a_1_1",
+      "x": 1220,
+      "y": -125,
+      "floor": 1,
+      "wing": "A",
+      "name": "hallway_wing_a_1_1",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "hall_1_4",
+      "x": 1370,
+      "y": -125,
+      "floor": 1,
+      "wing": "A",
+      "name": "hall_1_4",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "hall_1_5",
+      "x": 1470,
+      "y": -125,
+      "floor": 1,
+      "wing": "A",
+      "name": "hall_1_5",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "vertical_hallway_1_1",
+      "x": 825,
+      "y": -125,
+      "floor": 1,
+      "wing": "A",
+      "name": "vertical_hallway_1_1",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "vertical_hallway_2_1",
+      "x": 820,
+      "y": -125,
+      "floor": 2,
+      "wing": "A",
+      "name": "vertical_hallway_2_1",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "hall_2_1",
+      "x": 1650,
+      "y": -125,
+      "floor": 2,
+      "wing": "A",
+      "name": "hall_2_1",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "hall_2_2",
+      "x": 535,
+      "y": -125,
+      "floor": 2,
+      "wing": "A",
+      "name": "hall_2_2",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "hallway_wing_a_2_1",
+      "x": 1220,
+      "y": -125,
+      "floor": 2,
+      "wing": "A",
+      "name": "hallway_wing_a_2_1",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "hall_2_4",
+      "x": 1370,
+      "y": -125,
+      "floor": 2,
+      "wing": "A",
+      "name": "hall_2_4",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "hall_2_5",
+      "x": 1470,
+      "y": -125,
+      "floor": 2,
+      "wing": "A",
+      "name": "hall_2_5",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "vertical_hallway_3_1",
+      "x": 820,
+      "y": -125,
+      "floor": 3,
+      "wing": "A",
+      "name": "vertical_hallway_3_1",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "hall_3_1",
+      "x": 1650,
+      "y": -125,
+      "floor": 3,
+      "wing": "A",
+      "name": "hall_3_1",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "hall_3_2",
+      "x": 535,
+      "y": -125,
+      "floor": 3,
+      "wing": "A",
+      "name": "hall_3_2",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "hallway_wing_a_3_1",
+      "x": 1220,
+      "y": -125,
+      "floor": 3,
+      "wing": "A",
+      "name": "hallway_wing_a_3_1",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "hall_3_4",
+      "x": 1370,
+      "y": -125,
+      "floor": 3,
+      "wing": "A",
+      "name": "hall_3_4",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "hall_3_5",
+      "x": 1470,
+      "y": -125,
+      "floor": 3,
+      "wing": "A",
+      "name": "hall_3_5",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bridge_hall_1_ab",
+      "x": 825.0,
+      "y": 220.0,
+      "floor": 1,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "A-B",
+      "name": "Bridge Hallway 1F A-B",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A-B",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "bridge_hall_1_bc",
+      "x": 825.0,
+      "y": 560.0,
+      "floor": 1,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "B-C",
+      "name": "Bridge Hallway 1F B-C",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B-C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "bridge_hall_2_bc",
+      "x": 825.0,
+      "y": 560.0,
+      "floor": 2,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "B-C",
+      "name": "Bridge Hallway 2F B-C",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B-C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "bridge_hall_3_bc",
+      "x": 825.0,
+      "y": 560.0,
+      "floor": 3,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "B-C",
+      "name": "Bridge Hallway 3F B-C",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B-C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_b_1_0",
+      "x": 1650.0,
+      "y": 355.0,
+      "floor": 1,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "B",
+      "name": "hall_b_1_0",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_b_1_1",
+      "x": 1420.0,
+      "y": 355.0,
+      "floor": 1,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "B",
+      "name": "hall_b_1_1",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_b_1_2",
+      "x": 1220.0,
+      "y": 355.0,
+      "floor": 1,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "B",
+      "name": "hall_b_1_2",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_b_1_3",
+      "x": 1020.0,
+      "y": 355.0,
+      "floor": 1,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "B",
+      "name": "hall_b_1_3",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_b_1_turn",
+      "x": 980.0,
+      "y": 355.0,
+      "floor": 1,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "B",
+      "name": "hall_b_1_turn",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_b_1_curve_1",
+      "x": 825.0,
+      "y": 220.0,
+      "floor": 1,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "B",
+      "name": "hall_b_1_curve_1",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_b_1_curve_2",
+      "x": 825.0,
+      "y": 290.0,
+      "floor": 1,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "B",
+      "name": "hall_b_1_curve_2",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hallway_wing_b_1_2",
+      "x": 825.0,
+      "y": 355.0,
+      "floor": 1,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "B",
+      "name": "hallway_wing_b_1_2",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_b_1_5",
+      "x": 740.0,
+      "y": 355.0,
+      "floor": 1,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "B",
+      "name": "hall_b_1_5",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_b_1_aud",
+      "x": 690.0,
+      "y": 355.0,
+      "floor": 1,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "B",
+      "name": "hall_b_1_aud",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_b_2_0",
+      "x": 1650.0,
+      "y": 355.0,
+      "floor": 2,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "B",
+      "name": "hall_b_2_0",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_b_2_1",
+      "x": 1420.0,
+      "y": 355.0,
+      "floor": 2,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "B",
+      "name": "hall_b_2_1",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_b_2_2",
+      "x": 1220.0,
+      "y": 355.0,
+      "floor": 2,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "B",
+      "name": "hall_b_2_2",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_b_2_3",
+      "x": 1020.0,
+      "y": 355.0,
+      "floor": 2,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "B",
+      "name": "hall_b_2_3",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hallway_wing_b_2_2",
+      "x": 800.0,
+      "y": 355.0,
+      "floor": 2,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "B",
+      "name": "hallway_wing_b_2_2",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_b_3_0",
+      "x": 1650.0,
+      "y": 355.0,
+      "floor": 3,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "B",
+      "name": "hall_b_3_0",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_b_3_1",
+      "x": 1420.0,
+      "y": 355.0,
+      "floor": 3,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "B",
+      "name": "hall_b_3_1",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_b_3_2",
+      "x": 1220.0,
+      "y": 355.0,
+      "floor": 3,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "B",
+      "name": "hall_b_3_2",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_b_3_3",
+      "x": 1020.0,
+      "y": 355.0,
+      "floor": 3,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "B",
+      "name": "hall_b_3_3",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hallway_wing_b_3_2",
+      "x": 800.0,
+      "y": 355.0,
+      "floor": 3,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "B",
+      "name": "hallway_wing_b_3_2",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_c_1_0",
+      "x": 1235.0,
+      "y": 665.0,
+      "floor": 1,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "C",
+      "name": "hall_c_1_0",
+      "type": "hallway",
+      "metadata": {
+        "wing": "C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_c_1_1",
+      "x": 1105.0,
+      "y": 665.0,
+      "floor": 1,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "C",
+      "name": "hall_c_1_1",
+      "type": "hallway",
+      "metadata": {
+        "wing": "C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_c_1_2",
+      "x": 975.0,
+      "y": 665.0,
+      "floor": 1,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "C",
+      "name": "hall_c_1_2",
+      "type": "hallway",
+      "metadata": {
+        "wing": "C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hallway_wing_c_1_3",
+      "x": 825.0,
+      "y": 665.0,
+      "floor": 1,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "C",
+      "name": "hallway_wing_c_1_3",
+      "type": "hallway",
+      "metadata": {
+        "wing": "C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_c_1_4",
+      "x": 635.0,
+      "y": 665.0,
+      "floor": 1,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "C",
+      "name": "hall_c_1_4",
+      "type": "hallway",
+      "metadata": {
+        "wing": "C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_c_1_5",
+      "x": 425.0,
+      "y": 665.0,
+      "floor": 1,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "C",
+      "name": "hall_c_1_5",
+      "type": "hallway",
+      "metadata": {
+        "wing": "C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_c_1_6",
+      "x": 220.0,
+      "y": 665.0,
+      "floor": 1,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "C",
+      "name": "hall_c_1_6",
+      "type": "hallway",
+      "metadata": {
+        "wing": "C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_c_1_7",
+      "x": 95.0,
+      "y": 665.0,
+      "floor": 1,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "C",
+      "name": "hall_c_1_7",
+      "type": "hallway",
+      "metadata": {
+        "wing": "C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_c_2_0",
+      "x": 1270.0,
+      "y": 665.0,
+      "floor": 2,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "C",
+      "name": "hall_c_2_0",
+      "type": "hallway",
+      "metadata": {
+        "wing": "C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_c_2_1",
+      "x": 1080.0,
+      "y": 665.0,
+      "floor": 2,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "C",
+      "name": "hall_c_2_1",
+      "type": "hallway",
+      "metadata": {
+        "wing": "C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_c_2_turn",
+      "x": 825.0,
+      "y": 665.0,
+      "floor": 2,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "C",
+      "name": "hall_c_2_turn",
+      "type": "hallway",
+      "metadata": {
+        "wing": "C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hallway_wing_c_2_3",
+      "x": 825.0,
+      "y": 665.0,
+      "floor": 2,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "C",
+      "name": "hallway_wing_c_2_3",
+      "type": "hallway",
+      "metadata": {
+        "wing": "C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_c_2_3",
+      "x": 560.0,
+      "y": 665.0,
+      "floor": 2,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "C",
+      "name": "hall_c_2_3",
+      "type": "hallway",
+      "metadata": {
+        "wing": "C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_c_2_4",
+      "x": 275.0,
+      "y": 665.0,
+      "floor": 2,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "C",
+      "name": "hall_c_2_4",
+      "type": "hallway",
+      "metadata": {
+        "wing": "C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_c_2_5",
+      "x": 120.0,
+      "y": 665.0,
+      "floor": 2,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "C",
+      "name": "hall_c_2_5",
+      "type": "hallway",
+      "metadata": {
+        "wing": "C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_c_3_0",
+      "x": 1235.0,
+      "y": 665.0,
+      "floor": 3,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "C",
+      "name": "hall_c_3_0",
+      "type": "hallway",
+      "metadata": {
+        "wing": "C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_c_3_1",
+      "x": 1105.0,
+      "y": 665.0,
+      "floor": 3,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "C",
+      "name": "hall_c_3_1",
+      "type": "hallway",
+      "metadata": {
+        "wing": "C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_c_3_2",
+      "x": 975.0,
+      "y": 665.0,
+      "floor": 3,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "C",
+      "name": "hall_c_3_2",
+      "type": "hallway",
+      "metadata": {
+        "wing": "C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hallway_wing_c_3_3",
+      "x": 825.0,
+      "y": 665.0,
+      "floor": 3,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "C",
+      "name": "hallway_wing_c_3_3",
+      "type": "hallway",
+      "metadata": {
+        "wing": "C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_c_3_4",
+      "x": 560.0,
+      "y": 665.0,
+      "floor": 3,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "C",
+      "name": "hall_c_3_4",
+      "type": "hallway",
+      "metadata": {
+        "wing": "C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_c_3_5",
+      "x": 320.0,
+      "y": 665.0,
+      "floor": 3,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "C",
+      "name": "hall_c_3_5",
+      "type": "hallway",
+      "metadata": {
+        "wing": "C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "hall_c_3_6",
+      "x": 140.0,
+      "y": 665.0,
+      "floor": 3,
+      "width": 0.0,
+      "height": 0.0,
+      "wing": "C",
+      "name": "hall_c_3_6",
+      "type": "hallway",
+      "metadata": {
+        "wing": "C",
+        "layout_fallback": true,
+        "passable": true
+      }
+    },
+    {
+      "id": "Extension Meeting Room A101",
+      "x": 1035,
+      "y": 460,
+      "floor": 1,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Extension Meeting Room A101",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Classroom and Semninar Room A105",
+      "x": 930,
+      "y": 460,
+      "floor": 1,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Classroom and Semninar Room A105",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Physical Chem Lab A113",
+      "x": 720,
+      "y": 460,
+      "floor": 1,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Physical Chem Lab A113",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Teaching Lab (Analytical) A125",
+      "x": 390,
+      "y": 460,
+      "floor": 1,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Teaching Lab (Analytical) A125",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Teaching Lab (Organic) A131",
+      "x": 235,
+      "y": 460,
+      "floor": 1,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Teaching Lab (Organic) A131",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Spectograph and X-Ray Lab A137",
+      "x": 80,
+      "y": 460,
+      "floor": 1,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Spectograph and X-Ray Lab A137",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Office A141",
+      "x": 20,
+      "y": 460,
+      "floor": 1,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Office A141",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Museum and Display Room A104",
+      "x": 1010,
+      "y": 330,
+      "floor": 1,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Museum and Display Room A104",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Office Extension A108",
+      "x": 930,
+      "y": 330,
+      "floor": 1,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Office Extension A108",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Men's CR A114",
+      "x": 765,
+      "y": 330,
+      "floor": 1,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Men's CR A114",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Women's CR A116",
+      "x": 705,
+      "y": 330,
+      "floor": 1,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Women's CR A116",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Balance Room A118",
+      "x": 600,
+      "y": 330,
+      "floor": 1,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Balance Room A118",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Office Lab A122",
+      "x": 520,
+      "y": 330,
+      "floor": 1,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Office Lab A122",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Instructor's Room A126",
+      "x": 390,
+      "y": 330,
+      "floor": 1,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Instructor's Room A126",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Fine Machanics A132",
+      "x": 330,
+      "y": 330,
+      "floor": 1,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Fine Machanics A132",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Electronic Shop A134",
+      "x": 225,
+      "y": 330,
+      "floor": 1,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Electronic Shop A134",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Glass Blowing A136",
+      "x": 165,
+      "y": 330,
+      "floor": 1,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Glass Blowing A136",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Mi Meo A140 / Office A138",
+      "x": 85,
+      "y": 330,
+      "floor": 1,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Office Lab A122",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Head A202 / Document A204",
+      "x": 1035,
+      "y": 330,
+      "floor": 2,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Head A202 / Document A204",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Clerical A206",
+      "x": 930,
+      "y": 330,
+      "floor": 2,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Clerical A206",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Men's CR A214",
+      "x": 765,
+      "y": 330,
+      "floor": 2,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Men's CR A214",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Women's CR A216",
+      "x": 705,
+      "y": 330,
+      "floor": 2,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Women's CR A216",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Office Lab A218",
+      "x": 600,
+      "y": 330,
+      "floor": 2,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Office Lab A218",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Chromatography A222",
+      "x": 540,
+      "y": 330,
+      "floor": 2,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Chromatography A222",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Balance Room A240",
+      "x": 410,
+      "y": 330,
+      "floor": 2,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Balance Room A240",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Instrument Room A230",
+      "x": 280,
+      "y": 330,
+      "floor": 2,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Instrument Room A230",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Classroom A236",
+      "x": 150,
+      "y": 330,
+      "floor": 2,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Classroom A236",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Office A240",
+      "x": 90,
+      "y": 330,
+      "floor": 2,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Office A240",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Library - Conference A201",
+      "x": 930,
+      "y": 460,
+      "floor": 2,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Library - Conference A201",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Classrom A213",
+      "x": 720,
+      "y": 460,
+      "floor": 2,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Classrom A213",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Classroom A217",
+      "x": 615,
+      "y": 460,
+      "floor": 2,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Classroom A217",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Classroom A221",
+      "x": 510,
+      "y": 460,
+      "floor": 2,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Classroom A221",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Advance Analytical Lab A234",
+      "x": 405,
+      "y": 460,
+      "floor": 2,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Advance Analytical Lab A234",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Bio Chem Lab 1 A231",
+      "x": 275,
+      "y": 460,
+      "floor": 2,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Bio Chem Lab 1 A231",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Bio Chem Lab 2 A237",
+      "x": 145,
+      "y": 460,
+      "floor": 2,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Bio Chem Lab 2 A237",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Cold Room / Pre-fab Walk-in Cold Box A241",
+      "x": 40,
+      "y": 460,
+      "floor": 2,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Cold Room / Pre-fab Walk-in Cold Box A241",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Office Lab A302",
+      "x": 1070,
+      "y": 330,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Office Lab A302",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Office A304",
+      "x": 990,
+      "y": 330,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Office A304",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Radio Chem Storage A308",
+      "x": 930,
+      "y": 330,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Radio Chem Storage A308",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Men's CR A314",
+      "x": 765,
+      "y": 330,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Men's CR A314",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Women's CR A316",
+      "x": 705,
+      "y": 330,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Women's CR A316",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Office A318",
+      "x": 645,
+      "y": 330,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Office A318",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Office Lab A320",
+      "x": 565,
+      "y": 330,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Office Lab A320",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Chromatography A322",
+      "x": 505,
+      "y": 330,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Chromatography A322",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Office Lab A330",
+      "x": 445,
+      "y": 330,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Office Lab A330",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Solvent Extraction Room A330",
+      "x": 385,
+      "y": 330,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Solvent Extraction Room A330",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "kjeldahl A330",
+      "x": 325,
+      "y": 330,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "kjeldahl A330",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Office Lab A332",
+      "x": 265,
+      "y": 330,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Office Lab A332",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Cages Animal Room A336",
+      "x": 205,
+      "y": 330,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Cages Animal Room A336",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Cage Wash & Feed Storage A338",
+      "x": 145,
+      "y": 330,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Cage Wash & Feed Storage A338",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Office Room A340",
+      "x": 85,
+      "y": 330,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Office Room A340",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Photo Chem Lab A301",
+      "x": 1095,
+      "y": 460,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Photo Chem Lab A301",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Counting Room A303",
+      "x": 1035,
+      "y": 460,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Counting Room A303",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Isotopes Lab A305",
+      "x": 930,
+      "y": 460,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Isotopes Lab A305",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Adv Physical Chem Laboratory A315",
+      "x": 695,
+      "y": 460,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Adv Physical Chem Laboratory A315",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Balance Room A319",
+      "x": 635,
+      "y": 460,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Balance Room A319",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Instrument Room A321",
+      "x": 575,
+      "y": 460,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Instrument Room A321",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Advanced Organic Laboratory A325",
+      "x": 445,
+      "y": 460,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Advanced Organic Laboratory A325",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Infrared Research A329",
+      "x": 340,
+      "y": 460,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Infrared Research A329",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "50/60% RH A333",
+      "x": 280,
+      "y": 460,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "50/60% RH A333",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "Analytical Services A337",
+      "x": 25,
+      "y": 460,
+      "floor": 3,
+      "width": 100,
+      "height": 80,
+      "wing": "A",
+      "name": "Analytical Services A337",
+      "type": "room",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "stairs1_Wing_A_1F",
+      "x": 870,
+      "y": 330,
+      "floor": 1,
+      "width": 60,
+      "height": 60,
+      "wing": "A",
+      "name": "stairs1_Wing_A_1F",
+      "type": "stairs"
+    },
+    {
+      "id": "stairs2_Wing_A_1F",
+      "x": 20,
+      "y": 330,
+      "floor": 1,
+      "width": 60,
+      "height": 60,
+      "wing": "A",
+      "name": "stairs2_Wing_A_1F",
+      "type": "stairs"
+    },
+    {
+      "id": "stairs1_Wing_A_2F",
+      "x": 870,
+      "y": 330,
+      "floor": 2,
+      "width": 60,
+      "height": 60,
+      "wing": "A",
+      "name": "stairs1_Wing_A_2F",
+      "type": "stairs"
+    },
+    {
+      "id": "stairs2_Wing_A_2F",
+      "x": 20,
+      "y": 330,
+      "floor": 2,
+      "width": 60,
+      "height": 60,
+      "wing": "A",
+      "name": "stairs2_Wing_A_2F",
+      "type": "stairs"
+    },
+    {
+      "id": "stairs1_Wing_A_3F",
+      "x": 870,
+      "y": 330,
+      "floor": 3,
+      "width": 60,
+      "height": 60,
+      "wing": "A",
+      "name": "stairs1_Wing_A_3F",
+      "type": "stairs"
+    },
+    {
+      "id": "stairs2_Wing_A_3F",
+      "x": 20,
+      "y": 330,
+      "floor": 3,
+      "width": 60,
+      "height": 60,
+      "wing": "A",
+      "name": "stairs2_Wing_A_3F",
+      "type": "stairs"
+    },
+    {
+      "id": "hallway_connector_wing_b_2f_upper",
+      "x": 852.5,
+      "y": 414.0,
+      "floor": 2,
+      "wing": "B",
+      "name": "Hallway Connector",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B"
+      }
+    },
+    {
+      "id": "hallway_connector_wing_b_2f_lower",
+      "x": 852.5,
+      "y": 584.0,
+      "floor": 2,
+      "wing": "B",
+      "name": "Hallway Connector",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B"
+      }
+    },
+    {
+      "id": "hallway_connector_wing_b_3f_upper",
+      "x": 855.0,
+      "y": 340.0,
+      "floor": 3,
+      "wing": "B",
+      "name": "Hallway Connector",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B"
+      }
+    },
+    {
+      "id": "hallway_connector_wing_b_3f_lower",
+      "x": 855.0,
+      "y": 423.0,
+      "floor": 3,
+      "wing": "B",
+      "name": "Hallway Connector",
+      "type": "hallway",
+      "metadata": {
+        "wing": "B"
+      }
+    },
+    {
+      "id": "junction_Extension Meeting Room A101",
+      "x": 1085.0,
+      "y": -125.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Extension Meeting Room A101",
+      "x": 1085.0,
+      "y": 460,
+      "floor": 1,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Extension Meeting Room A101_1_1175.0_460",
+      "x": 1175.0,
+      "y": 460,
+      "floor": 1,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Extension Meeting Room A101_2_1175.0_-125.0",
+      "x": 1175.0,
+      "y": -125.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Classroom and Semninar Room A105",
+      "x": 1030,
+      "y": 500.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Classroom and Semninar Room A105_1_1030_580.0",
+      "x": 1030,
+      "y": 580.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Classroom and Semninar Room A105_2_1175.0_580.0",
+      "x": 1175.0,
+      "y": 580.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Physical Chem Lab A113",
+      "x": 820,
+      "y": 500.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Teaching Lab (Analytical) A125",
+      "x": 490,
+      "y": 500.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Teaching Lab (Analytical) A125_1_490_580.0",
+      "x": 490,
+      "y": 580.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Teaching Lab (Analytical) A125_2_1030_580.0",
+      "x": 1030,
+      "y": 580.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Teaching Lab (Organic) A131",
+      "x": 335,
+      "y": 500.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Teaching Lab (Organic) A131_1_335_580.0",
+      "x": 335,
+      "y": 580.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Teaching Lab (Organic) A131_2_490_580.0",
+      "x": 490,
+      "y": 580.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Spectograph and X-Ray Lab A137",
+      "x": 180,
+      "y": 500.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Spectograph and X-Ray Lab A137_1_180_580.0",
+      "x": 180,
+      "y": 580.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Spectograph and X-Ray Lab A137_2_335_580.0",
+      "x": 335,
+      "y": 580.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Office A141",
+      "x": 120,
+      "y": 500.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Museum and Display Room A104",
+      "x": 1175.0,
+      "y": 370.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Museum and Display Room A104",
+      "x": 1110,
+      "y": 370.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Office Extension A108",
+      "x": 1030,
+      "y": 370.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Men's CR A114",
+      "x": 815.0,
+      "y": 580.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Men's CR A114",
+      "x": 815.0,
+      "y": 410,
+      "floor": 1,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Men's CR A114_1_1175.0_410",
+      "x": 1175.0,
+      "y": 410,
+      "floor": 1,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Men's CR A114_2_1175.0_580.0",
+      "x": 1175.0,
+      "y": 580.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Women's CR A116",
+      "x": 755.0,
+      "y": 580.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Women's CR A116",
+      "x": 755.0,
+      "y": 410,
+      "floor": 1,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Women's CR A116_1_1175.0_410",
+      "x": 1175.0,
+      "y": 410,
+      "floor": 1,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Women's CR A116_2_1175.0_580.0",
+      "x": 1175.0,
+      "y": 580.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Balance Room A118",
+      "x": 650.0,
+      "y": 580.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Balance Room A118",
+      "x": 650.0,
+      "y": 410,
+      "floor": 1,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Office Lab A122",
+      "x": 570.0,
+      "y": 580.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Office Lab A122",
+      "x": 570.0,
+      "y": 410,
+      "floor": 1,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Instructor's Room A126",
+      "x": 440.0,
+      "y": 580.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Instructor's Room A126",
+      "x": 440.0,
+      "y": 410,
+      "floor": 1,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Instructor's Room A126_1_-20.0_410",
+      "x": -20.0,
+      "y": 410,
+      "floor": 1,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Instructor's Room A126_2_-20.0_580.0",
+      "x": -20.0,
+      "y": 580.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Fine Machanics A132",
+      "x": 380.0,
+      "y": 410.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Fine Machanics A132",
+      "x": 380.0,
+      "y": 410,
+      "floor": 1,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Electronic Shop A134",
+      "x": 275.0,
+      "y": 410.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Electronic Shop A134",
+      "x": 275.0,
+      "y": 410,
+      "floor": 1,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Glass Blowing A136",
+      "x": 215.0,
+      "y": 410.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Glass Blowing A136",
+      "x": 215.0,
+      "y": 410,
+      "floor": 1,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Mi Meo A140 / Office A138",
+      "x": 135.0,
+      "y": 410.0,
+      "floor": 1,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Mi Meo A140 / Office A138",
+      "x": 135.0,
+      "y": 410,
+      "floor": 1,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Head A202 / Document A204",
+      "x": 1085.0,
+      "y": -125.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Head A202 / Document A204",
+      "x": 1085.0,
+      "y": 330,
+      "floor": 2,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Clerical A206",
+      "x": 980.0,
+      "y": -125.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Clerical A206",
+      "x": 980.0,
+      "y": 330,
+      "floor": 2,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Men's CR A214",
+      "x": 815.0,
+      "y": -125.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Men's CR A214",
+      "x": 815.0,
+      "y": 330,
+      "floor": 2,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Women's CR A216",
+      "x": 755.0,
+      "y": -125.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Women's CR A216",
+      "x": 755.0,
+      "y": 330,
+      "floor": 2,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Office Lab A218",
+      "x": 650.0,
+      "y": -125.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Office Lab A218",
+      "x": 650.0,
+      "y": 330,
+      "floor": 2,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Chromatography A222",
+      "x": 590.0,
+      "y": -125.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Chromatography A222",
+      "x": 590.0,
+      "y": 330,
+      "floor": 2,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Balance Room A240",
+      "x": 460.0,
+      "y": 330,
+      "floor": 2,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Instrument Room A230",
+      "x": 330.0,
+      "y": 330,
+      "floor": 2,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Classroom A236",
+      "x": 200.0,
+      "y": 330,
+      "floor": 2,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Office A240",
+      "x": 140.0,
+      "y": 330,
+      "floor": 2,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Library - Conference A201",
+      "x": 980.0,
+      "y": -125.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Library - Conference A201",
+      "x": 980.0,
+      "y": 460,
+      "floor": 2,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Library - Conference A201_1_1175.0_460",
+      "x": 1175.0,
+      "y": 460,
+      "floor": 2,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Library - Conference A201_2_1175.0_-125.0",
+      "x": 1175.0,
+      "y": -125.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Classrom A213",
+      "x": 820,
+      "y": 500.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Classrom A213_1_820_580.0",
+      "x": 820,
+      "y": 580.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Classrom A213_2_1175.0_580.0",
+      "x": 1175.0,
+      "y": 580.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Classroom A217",
+      "x": 715,
+      "y": 500.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Classroom A217_1_715_580.0",
+      "x": 715,
+      "y": 580.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Classroom A217_2_820_580.0",
+      "x": 820,
+      "y": 580.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Classroom A221",
+      "x": 610,
+      "y": 500.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Classroom A221_1_610_580.0",
+      "x": 610,
+      "y": 580.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Classroom A221_2_715_580.0",
+      "x": 715,
+      "y": 580.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Advance Analytical Lab A234",
+      "x": 505,
+      "y": 500.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Advance Analytical Lab A234_1_505_580.0",
+      "x": 505,
+      "y": 580.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Advance Analytical Lab A234_2_610_580.0",
+      "x": 610,
+      "y": 580.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Bio Chem Lab 1 A231",
+      "x": 375,
+      "y": 500.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Bio Chem Lab 1 A231_1_375_580.0",
+      "x": 375,
+      "y": 580.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Bio Chem Lab 1 A231_2_505_580.0",
+      "x": 505,
+      "y": 580.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Bio Chem Lab 2 A237",
+      "x": 245,
+      "y": 500.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Bio Chem Lab 2 A237_1_245_580.0",
+      "x": 245,
+      "y": 580.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Bio Chem Lab 2 A237_2_375_580.0",
+      "x": 375,
+      "y": 580.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Cold Room / Pre-fab Walk-in Cold Box A241",
+      "x": 140,
+      "y": 500.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Cold Room / Pre-fab Walk-in Cold Box A241_1_140_580.0",
+      "x": 140,
+      "y": 580.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Cold Room / Pre-fab Walk-in Cold Box A241_2_245_580.0",
+      "x": 245,
+      "y": 580.0,
+      "floor": 2,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Office Lab A302",
+      "x": 1120.0,
+      "y": -125.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Office Lab A302",
+      "x": 1120.0,
+      "y": 330,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Office A304",
+      "x": 1040.0,
+      "y": -125.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Office A304",
+      "x": 1040.0,
+      "y": 330,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Radio Chem Storage A308",
+      "x": 980.0,
+      "y": -125.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Radio Chem Storage A308",
+      "x": 980.0,
+      "y": 330,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Men's CR A314",
+      "x": 815.0,
+      "y": -125.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Men's CR A314",
+      "x": 815.0,
+      "y": 330,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Women's CR A316",
+      "x": 755.0,
+      "y": -125.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Women's CR A316",
+      "x": 755.0,
+      "y": 330,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Office A318",
+      "x": 695.0,
+      "y": -125.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Office A318",
+      "x": 695.0,
+      "y": 330,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Office Lab A320",
+      "x": 615.0,
+      "y": -125.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Office Lab A320",
+      "x": 615.0,
+      "y": 330,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Chromatography A322",
+      "x": 555.0,
+      "y": -125.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Chromatography A322",
+      "x": 555.0,
+      "y": 330,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Office Lab A330",
+      "x": 495.0,
+      "y": 330,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Solvent Extraction Room A330",
+      "x": 435.0,
+      "y": 330,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_kjeldahl A330",
+      "x": 375.0,
+      "y": 330,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Office Lab A332",
+      "x": 315.0,
+      "y": 330,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Cages Animal Room A336",
+      "x": 255.0,
+      "y": 330,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Cage Wash & Feed Storage A338",
+      "x": 195.0,
+      "y": 330,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Office Room A340",
+      "x": 135.0,
+      "y": 330,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "junction_Photo Chem Lab A301",
+      "x": 1145.0,
+      "y": -125.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Hallway Junction",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Photo Chem Lab A301",
+      "x": 1145.0,
+      "y": 460,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Photo Chem Lab A301_1_1235.0_460",
+      "x": 1235.0,
+      "y": 460,
+      "floor": 3,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Photo Chem Lab A301_2_1235.0_-125.0",
+      "x": 1235.0,
+      "y": -125.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Counting Room A303",
+      "x": 1135,
+      "y": 500.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Isotopes Lab A305",
+      "x": 1030,
+      "y": 500.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Isotopes Lab A305_1_1030_580.0",
+      "x": 1030,
+      "y": 580.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Isotopes Lab A305_2_1235.0_580.0",
+      "x": 1235.0,
+      "y": 580.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Adv Physical Chem Laboratory A315",
+      "x": 795,
+      "y": 500.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Balance Room A319",
+      "x": 735,
+      "y": 500.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Instrument Room A321",
+      "x": 675,
+      "y": 500.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Advanced Organic Laboratory A325",
+      "x": 545,
+      "y": 500.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Advanced Organic Laboratory A325_1_545_580.0",
+      "x": 545,
+      "y": 580.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Advanced Organic Laboratory A325_2_1030_580.0",
+      "x": 1030,
+      "y": 580.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Infrared Research A329",
+      "x": 440,
+      "y": 500.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Infrared Research A329_1_440_580.0",
+      "x": 440,
+      "y": 580.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Infrared Research A329_2_545_580.0",
+      "x": 545,
+      "y": 580.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_50/60% RH A333",
+      "x": 380,
+      "y": 500.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "door_Analytical Services A337",
+      "x": 125,
+      "y": 500.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Door",
+      "type": "door",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Analytical Services A337_1_125_580.0",
+      "x": 125,
+      "y": 580.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "bypass_Analytical Services A337_2_440_580.0",
+      "x": 440,
+      "y": 580.0,
+      "floor": 3,
+      "wing": "A",
+      "name": "Routing Bypass",
+      "type": "hallway",
+      "metadata": {
+        "wing": "A"
+      }
+    },
+    {
+      "id": "landing_stairs1_Wing_A_1F",
+      "x": 900.0,
+      "y": 360.0,
+      "floor": 1,
+      "name": "Stair Landing",
+      "type": "hallway"
+    },
+    {
+      "id": "landing_stairs1_Wing_A_2F",
+      "x": 900.0,
+      "y": 360.0,
+      "floor": 2,
+      "name": "Stair Landing",
+      "type": "hallway"
+    },
+    {
+      "id": "landing_stairs1_Wing_A_3F",
+      "x": 900.0,
+      "y": 360.0,
+      "floor": 3,
+      "name": "Stair Landing",
+      "type": "hallway"
+    },
+    {
+      "id": "landing_stairs2_Wing_A_1F",
+      "x": 50.0,
+      "y": 360.0,
+      "floor": 1,
+      "name": "Stair Landing",
+      "type": "hallway"
+    },
+    {
+      "id": "landing_stairs2_Wing_A_2F",
+      "x": 50.0,
+      "y": 360.0,
+      "floor": 2,
+      "name": "Stair Landing",
+      "type": "hallway"
+    },
+    {
+      "id": "landing_stairs2_Wing_A_3F",
+      "x": 50.0,
+      "y": 360.0,
+      "floor": 3,
+      "name": "Stair Landing",
+      "type": "hallway"
+    }
+  ],
+  "edges": [
+    [
+      "hall_1_2",
+      "hall_1_turn_right"
+    ],
+    [
+      "hall_1_turn_right",
+      "hall_1_0"
+    ],
+    [
+      "hall_1_0",
+      "vertical_hallway_1_1"
+    ],
+    [
+      "vertical_hallway_1_1",
+      "hall_1_turn"
+    ],
+    [
+      "hallway_wing_a_1_1",
+      "hall_1_4"
+    ],
+    [
+      "hall_1_4",
+      "hall_1_5"
+    ],
+    [
+      "hall_1_5",
+      "hall_1_1"
+    ],
+    [
+      "hall_b_1_2",
+      "hall_b_1_1"
+    ],
+    [
+      "hall_b_1_1",
+      "hall_b_1_0"
+    ],
+    [
+      "hall_c_1_7",
+      "hall_c_1_6"
+    ],
+    [
+      "hall_c_1_6",
+      "hall_c_1_5"
+    ],
+    [
+      "hall_c_1_5",
+      "hall_c_1_4"
+    ],
+    [
+      "hall_c_1_4",
+      "hallway_wing_c_1_3"
+    ],
+    [
+      "hallway_wing_c_1_3",
+      "hall_c_1_2"
+    ],
+    [
+      "hall_c_1_2",
+      "hall_c_1_1"
+    ],
+    [
+      "hall_c_1_1",
+      "hall_c_1_0"
+    ],
+    [
+      "hallway_wing_a_2_1",
+      "hall_2_4"
+    ],
+    [
+      "hall_2_4",
+      "hall_2_5"
+    ],
+    [
+      "hall_2_5",
+      "hall_2_1"
+    ],
+    [
+      "hall_b_2_2",
+      "hall_b_2_1"
+    ],
+    [
+      "hall_b_2_1",
+      "hall_b_2_0"
+    ],
+    [
+      "hall_c_2_5",
+      "hall_c_2_4"
+    ],
+    [
+      "hall_c_2_4",
+      "hall_c_2_3"
+    ],
+    [
+      "hall_c_2_3",
+      "hall_c_2_turn"
+    ],
+    [
+      "hall_c_2_turn",
+      "hallway_wing_c_2_3"
+    ],
+    [
+      "hallway_wing_c_2_3",
+      "hall_c_2_1"
+    ],
+    [
+      "hall_c_2_1",
+      "hall_c_2_0"
+    ],
+    [
+      "hallway_wing_a_3_1",
+      "hall_3_4"
+    ],
+    [
+      "hall_3_4",
+      "hall_3_5"
+    ],
+    [
+      "hall_3_5",
+      "hall_3_1"
+    ],
+    [
+      "hall_b_3_2",
+      "hall_b_3_1"
+    ],
+    [
+      "hall_b_3_1",
+      "hall_b_3_0"
+    ],
+    [
+      "hall_c_3_6",
+      "hall_c_3_5"
+    ],
+    [
+      "hall_c_3_5",
+      "hall_c_3_4"
+    ],
+    [
+      "hall_c_3_4",
+      "hallway_wing_c_3_3"
+    ],
+    [
+      "hallway_wing_c_3_3",
+      "hall_c_3_2"
+    ],
+    [
+      "hall_c_3_2",
+      "hall_c_3_1"
+    ],
+    [
+      "hall_c_3_1",
+      "hall_c_3_0"
+    ],
+    [
+      "hall_b_1_curve_1",
+      "hall_b_1_curve_2"
+    ],
+    [
+      "hall_b_1_curve_2",
+      "hallway_wing_b_1_2"
+    ],
+    [
+      "hall_b_1_2",
+      "hall_b_1_3"
+    ],
+    [
+      "hall_b_1_3",
+      "hall_b_1_turn"
+    ],
+    [
+      "hall_b_1_turn",
+      "hallway_wing_b_1_2"
+    ],
+    [
+      "hallway_wing_b_1_2",
+      "hall_b_1_5"
+    ],
+    [
+      "hall_b_1_5",
+      "hall_b_1_aud"
+    ],
+    [
+      "hall_b_2_2",
+      "hall_b_2_3"
+    ],
+    [
+      "hall_b_2_3",
+      "hallway_wing_b_2_2"
+    ],
+    [
+      "vertical_hallway_2_1",
+      "hallway_wing_b_2_2"
+    ],
+    [
+      "hall_b_3_2",
+      "hall_b_3_3"
+    ],
+    [
+      "hall_b_3_3",
+      "hallway_wing_b_3_2"
+    ],
+    [
+      "vertical_hallway_3_1",
+      "hallway_wing_b_3_2"
+    ],
+    [
+      "hallway_wing_c_2_3",
+      "hall_c_2_3"
+    ],
+    [
+      "vertical_hallway_1_1",
+      "bridge_hall_1_ab"
+    ],
+    [
+      "bridge_hall_1_ab",
+      "hall_b_1_curve_1"
+    ],
+    [
+      "hallway_wing_b_1_2",
+      "bridge_hall_1_bc"
+    ],
+    [
+      "bridge_hall_1_bc",
+      "hallway_wing_c_1_3"
+    ],
+    [
+      "hallway_wing_b_2_2",
+      "bridge_hall_2_bc"
+    ],
+    [
+      "bridge_hall_2_bc",
+      "hallway_wing_c_2_3"
+    ],
+    [
+      "hallway_wing_b_3_2",
+      "bridge_hall_3_bc"
+    ],
+    [
+      "bridge_hall_3_bc",
+      "hallway_wing_c_3_3"
+    ],
+    [
+      "hall_1_turn",
+      "hall_1_0"
+    ],
+    [
+      "stairs1_Wing_A_1F",
+      "bridge_hall_1_ab"
+    ],
+    [
+      "hallway_wing_b_2_2",
+      "hallway_connector_wing_b_2f_upper"
+    ],
+    [
+      "hallway_wing_b_2_2",
+      "hallway_connector_wing_b_2f_lower"
+    ],
+    [
+      "hallway_connector_wing_b_3f_upper",
+      "hallway_connector_wing_b_3f_lower"
+    ],
+    [
+      "hallway_connector_wing_b_3f_lower",
+      "hallway_wing_b_3_2"
+    ],
+    [
+      "main entrance",
+      "hall_1_turn"
+    ],
+    [
+      "main entrance",
+      "hallway_wing_c_1_3"
+    ],
+    [
+      "stairs1_Wing_A_1F",
+      "main entrance"
+    ],
+    [
+      "stairs2_Wing_A_1F",
+      "hall_1_2"
+    ],
+    [
+      "stairs1_Wing_A_2F",
+      "vertical_hallway_2_1"
+    ],
+    [
+      "stairs2_Wing_A_2F",
+      "hall_2_2"
+    ],
+    [
+      "stairs1_Wing_A_3F",
+      "vertical_hallway_3_1"
+    ],
+    [
+      "stairs2_Wing_A_3F",
+      "hall_3_2"
+    ],
+    [
+      "hall_1_turn",
+      "junction_Extension Meeting Room A101"
+    ],
+    [
+      "hallway_wing_a_1_1",
+      "junction_Extension Meeting Room A101"
+    ],
+    [
+      "Extension Meeting Room A101",
+      "door_Extension Meeting Room A101"
+    ],
+    [
+      "door_Extension Meeting Room A101",
+      "bypass_Extension Meeting Room A101_1_1175.0_460"
+    ],
+    [
+      "bypass_Extension Meeting Room A101_2_1175.0_-125.0",
+      "junction_Extension Meeting Room A101"
+    ],
+    [
+      "bypass_Extension Meeting Room A101_2_1175.0_-125.0",
+      "hallway_wing_a_1_1"
+    ],
+    [
+      "hallway_wing_a_1_1",
+      "hall_1_turn"
+    ],
+    [
+      "Classroom and Semninar Room A105",
+      "door_Classroom and Semninar Room A105"
+    ],
+    [
+      "door_Classroom and Semninar Room A105",
+      "bypass_Classroom and Semninar Room A105_1_1030_580.0"
+    ],
+    [
+      "bypass_Classroom and Semninar Room A105_1_1030_580.0",
+      "bypass_Classroom and Semninar Room A105_2_1175.0_580.0"
+    ],
+    [
+      "bypass_Classroom and Semninar Room A105_2_1175.0_580.0",
+      "bypass_Extension Meeting Room A101_1_1175.0_460"
+    ],
+    [
+      "main entrance",
+      "bypass_Classroom and Semninar Room A105_1_1030_580.0"
+    ],
+    [
+      "Physical Chem Lab A113",
+      "door_Physical Chem Lab A113"
+    ],
+    [
+      "door_Physical Chem Lab A113",
+      "bypass_Classroom and Semninar Room A105_1_1030_580.0"
+    ],
+    [
+      "Teaching Lab (Analytical) A125",
+      "door_Teaching Lab (Analytical) A125"
+    ],
+    [
+      "door_Teaching Lab (Analytical) A125",
+      "bypass_Teaching Lab (Analytical) A125_1_490_580.0"
+    ],
+    [
+      "bypass_Teaching Lab (Analytical) A125_2_1030_580.0",
+      "bypass_Classroom and Semninar Room A105_1_1030_580.0"
+    ],
+    [
+      "bypass_Teaching Lab (Analytical) A125_1_490_580.0",
+      "main entrance"
+    ],
+    [
+      "bypass_Teaching Lab (Analytical) A125_2_1030_580.0",
+      "bypass_Classroom and Semninar Room A105_2_1175.0_580.0"
+    ],
+    [
+      "Teaching Lab (Organic) A131",
+      "door_Teaching Lab (Organic) A131"
+    ],
+    [
+      "door_Teaching Lab (Organic) A131",
+      "bypass_Teaching Lab (Organic) A131_1_335_580.0"
+    ],
+    [
+      "bypass_Teaching Lab (Organic) A131_2_490_580.0",
+      "bypass_Teaching Lab (Analytical) A125_1_490_580.0"
+    ],
+    [
+      "bypass_Teaching Lab (Organic) A131_1_335_580.0",
+      "bypass_Teaching Lab (Analytical) A125_1_490_580.0"
+    ],
+    [
+      "bypass_Teaching Lab (Organic) A131_2_490_580.0",
+      "main entrance"
+    ],
+    [
+      "Spectograph and X-Ray Lab A137",
+      "door_Spectograph and X-Ray Lab A137"
+    ],
+    [
+      "door_Spectograph and X-Ray Lab A137",
+      "bypass_Spectograph and X-Ray Lab A137_1_180_580.0"
+    ],
+    [
+      "bypass_Spectograph and X-Ray Lab A137_1_180_580.0",
+      "bypass_Spectograph and X-Ray Lab A137_2_335_580.0"
+    ],
+    [
+      "bypass_Spectograph and X-Ray Lab A137_2_335_580.0",
+      "bypass_Teaching Lab (Organic) A131_1_335_580.0"
+    ],
+    [
+      "bypass_Spectograph and X-Ray Lab A137_1_180_580.0",
+      "bypass_Teaching Lab (Organic) A131_1_335_580.0"
+    ],
+    [
+      "bypass_Spectograph and X-Ray Lab A137_2_335_580.0",
+      "bypass_Teaching Lab (Analytical) A125_1_490_580.0"
+    ],
+    [
+      "Office A141",
+      "door_Office A141"
+    ],
+    [
+      "door_Office A141",
+      "bypass_Spectograph and X-Ray Lab A137_1_180_580.0"
+    ],
+    [
+      "bypass_Extension Meeting Room A101_1_1175.0_460",
+      "junction_Museum and Display Room A104"
+    ],
+    [
+      "bypass_Extension Meeting Room A101_2_1175.0_-125.0",
+      "junction_Museum and Display Room A104"
+    ],
+    [
+      "Museum and Display Room A104",
+      "door_Museum and Display Room A104"
+    ],
+    [
+      "door_Museum and Display Room A104",
+      "junction_Museum and Display Room A104"
+    ],
+    [
+      "Office Extension A108",
+      "door_Office Extension A108"
+    ],
+    [
+      "door_Office Extension A108",
+      "junction_Museum and Display Room A104"
+    ],
+    [
+      "bypass_Teaching Lab (Analytical) A125_2_1030_580.0",
+      "junction_Men's CR A114"
+    ],
+    [
+      "Men's CR A114",
+      "door_Men's CR A114"
+    ],
+    [
+      "door_Men's CR A114",
+      "bypass_Men's CR A114_1_1175.0_410"
+    ],
+    [
+      "bypass_Men's CR A114_1_1175.0_410",
+      "bypass_Men's CR A114_2_1175.0_580.0"
+    ],
+    [
+      "bypass_Men's CR A114_2_1175.0_580.0",
+      "junction_Men's CR A114"
+    ],
+    [
+      "junction_Men's CR A114",
+      "main entrance"
+    ],
+    [
+      "bypass_Classroom and Semninar Room A105_2_1175.0_580.0",
+      "bypass_Men's CR A114_2_1175.0_580.0"
+    ],
+    [
+      "junction_Men's CR A114",
+      "junction_Women's CR A116"
+    ],
+    [
+      "Women's CR A116",
+      "door_Women's CR A116"
+    ],
+    [
+      "door_Women's CR A116",
+      "bypass_Women's CR A116_1_1175.0_410"
+    ],
+    [
+      "bypass_Women's CR A116_1_1175.0_410",
+      "bypass_Women's CR A116_2_1175.0_580.0"
+    ],
+    [
+      "bypass_Women's CR A116_2_1175.0_580.0",
+      "junction_Women's CR A116"
+    ],
+    [
+      "bypass_Teaching Lab (Organic) A131_2_490_580.0",
+      "junction_Women's CR A116"
+    ],
+    [
+      "bypass_Men's CR A114_2_1175.0_580.0",
+      "bypass_Women's CR A116_2_1175.0_580.0"
+    ],
+    [
+      "bypass_Men's CR A114_1_1175.0_410",
+      "bypass_Women's CR A116_1_1175.0_410"
+    ],
+    [
+      "bypass_Teaching Lab (Organic) A131_2_490_580.0",
+      "junction_Balance Room A118"
+    ],
+    [
+      "junction_Men's CR A114",
+      "junction_Balance Room A118"
+    ],
+    [
+      "Balance Room A118",
+      "door_Balance Room A118"
+    ],
+    [
+      "door_Balance Room A118",
+      "junction_Balance Room A118"
+    ],
+    [
+      "junction_Balance Room A118",
+      "junction_Women's CR A116"
+    ],
+    [
+      "bypass_Teaching Lab (Analytical) A125_1_490_580.0",
+      "junction_Office Lab A122"
+    ],
+    [
+      "junction_Women's CR A116",
+      "junction_Office Lab A122"
+    ],
+    [
+      "Office Lab A122",
+      "door_Office Lab A122"
+    ],
+    [
+      "door_Office Lab A122",
+      "junction_Office Lab A122"
+    ],
+    [
+      "bypass_Teaching Lab (Organic) A131_2_490_580.0",
+      "junction_Office Lab A122"
+    ],
+    [
+      "junction_Office Lab A122",
+      "junction_Balance Room A118"
+    ],
+    [
+      "bypass_Teaching Lab (Organic) A131_1_335_580.0",
+      "junction_Instructor's Room A126"
+    ],
+    [
+      "bypass_Teaching Lab (Organic) A131_2_490_580.0",
+      "junction_Instructor's Room A126"
+    ],
+    [
+      "Instructor's Room A126",
+      "door_Instructor's Room A126"
+    ],
+    [
+      "door_Instructor's Room A126",
+      "bypass_Instructor's Room A126_1_-20.0_410"
+    ],
+    [
+      "bypass_Instructor's Room A126_1_-20.0_410",
+      "bypass_Instructor's Room A126_2_-20.0_580.0"
+    ],
+    [
+      "bypass_Instructor's Room A126_2_-20.0_580.0",
+      "junction_Instructor's Room A126"
+    ],
+    [
+      "bypass_Instructor's Room A126_2_-20.0_580.0",
+      "bypass_Spectograph and X-Ray Lab A137_1_180_580.0"
+    ],
+    [
+      "bypass_Spectograph and X-Ray Lab A137_2_335_580.0",
+      "junction_Instructor's Room A126"
+    ],
+    [
+      "junction_Instructor's Room A126",
+      "bypass_Teaching Lab (Analytical) A125_1_490_580.0"
+    ],
+    [
+      "bypass_Men's CR A114_1_1175.0_410",
+      "junction_Fine Machanics A132"
+    ],
+    [
+      "Fine Machanics A132",
+      "door_Fine Machanics A132"
+    ],
+    [
+      "door_Fine Machanics A132",
+      "junction_Fine Machanics A132"
+    ],
+    [
+      "junction_Fine Machanics A132",
+      "junction_Electronic Shop A134"
+    ],
+    [
+      "Electronic Shop A134",
+      "door_Electronic Shop A134"
+    ],
+    [
+      "door_Electronic Shop A134",
+      "junction_Electronic Shop A134"
+    ],
+    [
+      "junction_Electronic Shop A134",
+      "junction_Glass Blowing A136"
+    ],
+    [
+      "Glass Blowing A136",
+      "door_Glass Blowing A136"
+    ],
+    [
+      "door_Glass Blowing A136",
+      "junction_Glass Blowing A136"
+    ],
+    [
+      "bypass_Instructor's Room A126_1_-20.0_410",
+      "junction_Mi Meo A140 / Office A138"
+    ],
+    [
+      "junction_Glass Blowing A136",
+      "junction_Mi Meo A140 / Office A138"
+    ],
+    [
+      "Mi Meo A140 / Office A138",
+      "door_Mi Meo A140 / Office A138"
+    ],
+    [
+      "door_Mi Meo A140 / Office A138",
+      "junction_Mi Meo A140 / Office A138"
+    ],
+    [
+      "hallway_wing_a_2_1",
+      "junction_Head A202 / Document A204"
+    ],
+    [
+      "Head A202 / Document A204",
+      "door_Head A202 / Document A204"
+    ],
+    [
+      "door_Head A202 / Document A204",
+      "junction_Head A202 / Document A204"
+    ],
+    [
+      "vertical_hallway_2_1",
+      "junction_Clerical A206"
+    ],
+    [
+      "junction_Head A202 / Document A204",
+      "junction_Clerical A206"
+    ],
+    [
+      "Clerical A206",
+      "door_Clerical A206"
+    ],
+    [
+      "door_Clerical A206",
+      "junction_Clerical A206"
+    ],
+    [
+      "vertical_hallway_2_1",
+      "junction_Men's CR A214"
+    ],
+    [
+      "Men's CR A214",
+      "door_Men's CR A214"
+    ],
+    [
+      "door_Men's CR A214",
+      "junction_Men's CR A214"
+    ],
+    [
+      "junction_Men's CR A214",
+      "junction_Women's CR A216"
+    ],
+    [
+      "Women's CR A216",
+      "door_Women's CR A216"
+    ],
+    [
+      "door_Women's CR A216",
+      "junction_Women's CR A216"
+    ],
+    [
+      "vertical_hallway_2_1",
+      "junction_Office Lab A218"
+    ],
+    [
+      "hall_2_2",
+      "junction_Office Lab A218"
+    ],
+    [
+      "Office Lab A218",
+      "door_Office Lab A218"
+    ],
+    [
+      "door_Office Lab A218",
+      "junction_Office Lab A218"
+    ],
+    [
+      "junction_Office Lab A218",
+      "junction_Women's CR A216"
+    ],
+    [
+      "vertical_hallway_2_1",
+      "hall_2_2"
+    ],
+    [
+      "hall_2_2",
+      "junction_Chromatography A222"
+    ],
+    [
+      "junction_Women's CR A216",
+      "junction_Chromatography A222"
+    ],
+    [
+      "Chromatography A222",
+      "door_Chromatography A222"
+    ],
+    [
+      "door_Chromatography A222",
+      "junction_Chromatography A222"
+    ],
+    [
+      "junction_Chromatography A222",
+      "junction_Office Lab A218"
+    ],
+    [
+      "Balance Room A240",
+      "door_Balance Room A240"
+    ],
+    [
+      "door_Balance Room A240",
+      "hall_2_2"
+    ],
+    [
+      "Instrument Room A230",
+      "door_Instrument Room A230"
+    ],
+    [
+      "door_Instrument Room A230",
+      "hall_2_2"
+    ],
+    [
+      "Classroom A236",
+      "door_Classroom A236"
+    ],
+    [
+      "door_Classroom A236",
+      "hall_2_2"
+    ],
+    [
+      "Office A240",
+      "door_Office A240"
+    ],
+    [
+      "door_Office A240",
+      "hall_2_2"
+    ],
+    [
+      "hallway_wing_a_2_1",
+      "junction_Library - Conference A201"
+    ],
+    [
+      "vertical_hallway_2_1",
+      "junction_Library - Conference A201"
+    ],
+    [
+      "Library - Conference A201",
+      "door_Library - Conference A201"
+    ],
+    [
+      "door_Library - Conference A201",
+      "bypass_Library - Conference A201_1_1175.0_460"
+    ],
+    [
+      "bypass_Library - Conference A201_1_1175.0_460",
+      "bypass_Library - Conference A201_2_1175.0_-125.0"
+    ],
+    [
+      "bypass_Library - Conference A201_2_1175.0_-125.0",
+      "junction_Library - Conference A201"
+    ],
+    [
+      "junction_Clerical A206",
+      "junction_Library - Conference A201"
+    ],
+    [
+      "junction_Library - Conference A201",
+      "junction_Head A202 / Document A204"
+    ],
+    [
+      "junction_Head A202 / Document A204",
+      "bypass_Library - Conference A201_2_1175.0_-125.0"
+    ],
+    [
+      "bypass_Library - Conference A201_2_1175.0_-125.0",
+      "hallway_wing_a_2_1"
+    ],
+    [
+      "hallway_wing_a_2_1",
+      "vertical_hallway_2_1"
+    ],
+    [
+      "Classrom A213",
+      "door_Classrom A213"
+    ],
+    [
+      "door_Classrom A213",
+      "bypass_Classrom A213_1_820_580.0"
+    ],
+    [
+      "bypass_Classrom A213_1_820_580.0",
+      "bypass_Classrom A213_2_1175.0_580.0"
+    ],
+    [
+      "bypass_Classrom A213_2_1175.0_580.0",
+      "bypass_Library - Conference A201_1_1175.0_460"
+    ],
+    [
+      "Classroom A217",
+      "door_Classroom A217"
+    ],
+    [
+      "door_Classroom A217",
+      "bypass_Classroom A217_1_715_580.0"
+    ],
+    [
+      "bypass_Classroom A217_1_715_580.0",
+      "bypass_Classroom A217_2_820_580.0"
+    ],
+    [
+      "bypass_Classroom A217_2_820_580.0",
+      "bypass_Classrom A213_1_820_580.0"
+    ],
+    [
+      "bypass_Classroom A217_1_715_580.0",
+      "bypass_Classrom A213_1_820_580.0"
+    ],
+    [
+      "bypass_Classroom A217_2_820_580.0",
+      "bypass_Classrom A213_2_1175.0_580.0"
+    ],
+    [
+      "Classroom A221",
+      "door_Classroom A221"
+    ],
+    [
+      "door_Classroom A221",
+      "bypass_Classroom A221_1_610_580.0"
+    ],
+    [
+      "bypass_Classroom A221_1_610_580.0",
+      "bypass_Classroom A221_2_715_580.0"
+    ],
+    [
+      "bypass_Classroom A221_2_715_580.0",
+      "bypass_Classroom A217_1_715_580.0"
+    ],
+    [
+      "bypass_Classroom A221_1_610_580.0",
+      "bypass_Classroom A217_1_715_580.0"
+    ],
+    [
+      "bypass_Classroom A221_2_715_580.0",
+      "bypass_Classrom A213_1_820_580.0"
+    ],
+    [
+      "Advance Analytical Lab A234",
+      "door_Advance Analytical Lab A234"
+    ],
+    [
+      "door_Advance Analytical Lab A234",
+      "bypass_Advance Analytical Lab A234_1_505_580.0"
+    ],
+    [
+      "bypass_Advance Analytical Lab A234_1_505_580.0",
+      "bypass_Advance Analytical Lab A234_2_610_580.0"
+    ],
+    [
+      "bypass_Advance Analytical Lab A234_2_610_580.0",
+      "bypass_Classroom A221_1_610_580.0"
+    ],
+    [
+      "bypass_Advance Analytical Lab A234_1_505_580.0",
+      "bypass_Classroom A221_1_610_580.0"
+    ],
+    [
+      "bypass_Advance Analytical Lab A234_2_610_580.0",
+      "bypass_Classroom A217_1_715_580.0"
+    ],
+    [
+      "Bio Chem Lab 1 A231",
+      "door_Bio Chem Lab 1 A231"
+    ],
+    [
+      "door_Bio Chem Lab 1 A231",
+      "bypass_Bio Chem Lab 1 A231_1_375_580.0"
+    ],
+    [
+      "bypass_Bio Chem Lab 1 A231_1_375_580.0",
+      "bypass_Bio Chem Lab 1 A231_2_505_580.0"
+    ],
+    [
+      "bypass_Bio Chem Lab 1 A231_2_505_580.0",
+      "bypass_Advance Analytical Lab A234_1_505_580.0"
+    ],
+    [
+      "bypass_Bio Chem Lab 1 A231_1_375_580.0",
+      "bypass_Advance Analytical Lab A234_1_505_580.0"
+    ],
+    [
+      "bypass_Bio Chem Lab 1 A231_2_505_580.0",
+      "bypass_Classroom A221_1_610_580.0"
+    ],
+    [
+      "Bio Chem Lab 2 A237",
+      "door_Bio Chem Lab 2 A237"
+    ],
+    [
+      "door_Bio Chem Lab 2 A237",
+      "bypass_Bio Chem Lab 2 A237_1_245_580.0"
+    ],
+    [
+      "bypass_Bio Chem Lab 2 A237_1_245_580.0",
+      "bypass_Bio Chem Lab 2 A237_2_375_580.0"
+    ],
+    [
+      "bypass_Bio Chem Lab 2 A237_2_375_580.0",
+      "bypass_Bio Chem Lab 1 A231_1_375_580.0"
+    ],
+    [
+      "bypass_Bio Chem Lab 2 A237_1_245_580.0",
+      "bypass_Bio Chem Lab 1 A231_1_375_580.0"
+    ],
+    [
+      "bypass_Bio Chem Lab 2 A237_2_375_580.0",
+      "bypass_Advance Analytical Lab A234_1_505_580.0"
+    ],
+    [
+      "Cold Room / Pre-fab Walk-in Cold Box A241",
+      "door_Cold Room / Pre-fab Walk-in Cold Box A241"
+    ],
+    [
+      "door_Cold Room / Pre-fab Walk-in Cold Box A241",
+      "bypass_Cold Room / Pre-fab Walk-in Cold Box A241_1_140_580.0"
+    ],
+    [
+      "bypass_Cold Room / Pre-fab Walk-in Cold Box A241_1_140_580.0",
+      "bypass_Cold Room / Pre-fab Walk-in Cold Box A241_2_245_580.0"
+    ],
+    [
+      "bypass_Cold Room / Pre-fab Walk-in Cold Box A241_2_245_580.0",
+      "bypass_Bio Chem Lab 2 A237_1_245_580.0"
+    ],
+    [
+      "bypass_Cold Room / Pre-fab Walk-in Cold Box A241_1_140_580.0",
+      "bypass_Bio Chem Lab 2 A237_1_245_580.0"
+    ],
+    [
+      "bypass_Cold Room / Pre-fab Walk-in Cold Box A241_2_245_580.0",
+      "bypass_Bio Chem Lab 1 A231_1_375_580.0"
+    ],
+    [
+      "Office Lab A302",
+      "door_Office Lab A302"
+    ],
+    [
+      "door_Office Lab A302",
+      "junction_Office Lab A302"
+    ],
+    [
+      "vertical_hallway_3_1",
+      "junction_Office A304"
+    ],
+    [
+      "junction_Office Lab A302",
+      "junction_Office A304"
+    ],
+    [
+      "Office A304",
+      "door_Office A304"
+    ],
+    [
+      "door_Office A304",
+      "junction_Office A304"
+    ],
+    [
+      "hallway_wing_a_3_1",
+      "junction_Radio Chem Storage A308"
+    ],
+    [
+      "vertical_hallway_3_1",
+      "junction_Radio Chem Storage A308"
+    ],
+    [
+      "Radio Chem Storage A308",
+      "door_Radio Chem Storage A308"
+    ],
+    [
+      "door_Radio Chem Storage A308",
+      "junction_Radio Chem Storage A308"
+    ],
+    [
+      "junction_Radio Chem Storage A308",
+      "junction_Office A304"
+    ],
+    [
+      "hallway_wing_a_3_1",
+      "vertical_hallway_3_1"
+    ],
+    [
+      "vertical_hallway_3_1",
+      "junction_Men's CR A314"
+    ],
+    [
+      "Men's CR A314",
+      "door_Men's CR A314"
+    ],
+    [
+      "door_Men's CR A314",
+      "junction_Men's CR A314"
+    ],
+    [
+      "junction_Men's CR A314",
+      "junction_Women's CR A316"
+    ],
+    [
+      "Women's CR A316",
+      "door_Women's CR A316"
+    ],
+    [
+      "door_Women's CR A316",
+      "junction_Women's CR A316"
+    ],
+    [
+      "vertical_hallway_3_1",
+      "junction_Office A318"
+    ],
+    [
+      "Office A318",
+      "door_Office A318"
+    ],
+    [
+      "door_Office A318",
+      "junction_Office A318"
+    ],
+    [
+      "junction_Office A318",
+      "junction_Women's CR A316"
+    ],
+    [
+      "vertical_hallway_3_1",
+      "hall_3_2"
+    ],
+    [
+      "hall_3_2",
+      "junction_Office Lab A320"
+    ],
+    [
+      "junction_Women's CR A316",
+      "junction_Office Lab A320"
+    ],
+    [
+      "Office Lab A320",
+      "door_Office Lab A320"
+    ],
+    [
+      "door_Office Lab A320",
+      "junction_Office Lab A320"
+    ],
+    [
+      "junction_Office Lab A320",
+      "junction_Office A318"
+    ],
+    [
+      "hall_3_2",
+      "junction_Chromatography A322"
+    ],
+    [
+      "junction_Office A318",
+      "junction_Chromatography A322"
+    ],
+    [
+      "Chromatography A322",
+      "door_Chromatography A322"
+    ],
+    [
+      "door_Chromatography A322",
+      "junction_Chromatography A322"
+    ],
+    [
+      "junction_Chromatography A322",
+      "junction_Office Lab A320"
+    ],
+    [
+      "Office Lab A330",
+      "door_Office Lab A330"
+    ],
+    [
+      "door_Office Lab A330",
+      "hall_3_2"
+    ],
+    [
+      "Solvent Extraction Room A330",
+      "door_Solvent Extraction Room A330"
+    ],
+    [
+      "door_Solvent Extraction Room A330",
+      "hall_3_2"
+    ],
+    [
+      "kjeldahl A330",
+      "door_kjeldahl A330"
+    ],
+    [
+      "door_kjeldahl A330",
+      "hall_3_2"
+    ],
+    [
+      "Office Lab A332",
+      "door_Office Lab A332"
+    ],
+    [
+      "door_Office Lab A332",
+      "hall_3_2"
+    ],
+    [
+      "Cages Animal Room A336",
+      "door_Cages Animal Room A336"
+    ],
+    [
+      "door_Cages Animal Room A336",
+      "hall_3_2"
+    ],
+    [
+      "Cage Wash & Feed Storage A338",
+      "door_Cage Wash & Feed Storage A338"
+    ],
+    [
+      "door_Cage Wash & Feed Storage A338",
+      "hall_3_2"
+    ],
+    [
+      "Office Room A340",
+      "door_Office Room A340"
+    ],
+    [
+      "door_Office Room A340",
+      "hall_3_2"
+    ],
+    [
+      "hallway_wing_a_3_1",
+      "junction_Photo Chem Lab A301"
+    ],
+    [
+      "junction_Office Lab A302",
+      "junction_Photo Chem Lab A301"
+    ],
+    [
+      "Photo Chem Lab A301",
+      "door_Photo Chem Lab A301"
+    ],
+    [
+      "door_Photo Chem Lab A301",
+      "bypass_Photo Chem Lab A301_1_1235.0_460"
+    ],
+    [
+      "bypass_Photo Chem Lab A301_1_1235.0_460",
+      "bypass_Photo Chem Lab A301_2_1235.0_-125.0"
+    ],
+    [
+      "bypass_Photo Chem Lab A301_2_1235.0_-125.0",
+      "junction_Photo Chem Lab A301"
+    ],
+    [
+      "hallway_wing_a_3_1",
+      "bypass_Photo Chem Lab A301_2_1235.0_-125.0"
+    ],
+    [
+      "bypass_Photo Chem Lab A301_2_1235.0_-125.0",
+      "hall_3_4"
+    ],
+    [
+      "Counting Room A303",
+      "door_Counting Room A303"
+    ],
+    [
+      "door_Counting Room A303",
+      "bypass_Photo Chem Lab A301_1_1235.0_460"
+    ],
+    [
+      "Isotopes Lab A305",
+      "door_Isotopes Lab A305"
+    ],
+    [
+      "door_Isotopes Lab A305",
+      "bypass_Isotopes Lab A305_1_1030_580.0"
+    ],
+    [
+      "bypass_Isotopes Lab A305_1_1030_580.0",
+      "bypass_Isotopes Lab A305_2_1235.0_580.0"
+    ],
+    [
+      "bypass_Isotopes Lab A305_2_1235.0_580.0",
+      "bypass_Photo Chem Lab A301_1_1235.0_460"
+    ],
+    [
+      "Adv Physical Chem Laboratory A315",
+      "door_Adv Physical Chem Laboratory A315"
+    ],
+    [
+      "door_Adv Physical Chem Laboratory A315",
+      "bypass_Isotopes Lab A305_1_1030_580.0"
+    ],
+    [
+      "Balance Room A319",
+      "door_Balance Room A319"
+    ],
+    [
+      "door_Balance Room A319",
+      "bypass_Isotopes Lab A305_1_1030_580.0"
+    ],
+    [
+      "Instrument Room A321",
+      "door_Instrument Room A321"
+    ],
+    [
+      "door_Instrument Room A321",
+      "bypass_Isotopes Lab A305_1_1030_580.0"
+    ],
+    [
+      "Advanced Organic Laboratory A325",
+      "door_Advanced Organic Laboratory A325"
+    ],
+    [
+      "door_Advanced Organic Laboratory A325",
+      "bypass_Advanced Organic Laboratory A325_1_545_580.0"
+    ],
+    [
+      "bypass_Advanced Organic Laboratory A325_1_545_580.0",
+      "bypass_Advanced Organic Laboratory A325_2_1030_580.0"
+    ],
+    [
+      "bypass_Advanced Organic Laboratory A325_2_1030_580.0",
+      "bypass_Isotopes Lab A305_1_1030_580.0"
+    ],
+    [
+      "bypass_Advanced Organic Laboratory A325_1_545_580.0",
+      "bypass_Isotopes Lab A305_1_1030_580.0"
+    ],
+    [
+      "bypass_Advanced Organic Laboratory A325_2_1030_580.0",
+      "bypass_Isotopes Lab A305_2_1235.0_580.0"
+    ],
+    [
+      "Infrared Research A329",
+      "door_Infrared Research A329"
+    ],
+    [
+      "door_Infrared Research A329",
+      "bypass_Infrared Research A329_1_440_580.0"
+    ],
+    [
+      "bypass_Infrared Research A329_1_440_580.0",
+      "bypass_Infrared Research A329_2_545_580.0"
+    ],
+    [
+      "bypass_Infrared Research A329_2_545_580.0",
+      "bypass_Advanced Organic Laboratory A325_1_545_580.0"
+    ],
+    [
+      "bypass_Infrared Research A329_1_440_580.0",
+      "bypass_Advanced Organic Laboratory A325_1_545_580.0"
+    ],
+    [
+      "bypass_Infrared Research A329_2_545_580.0",
+      "bypass_Isotopes Lab A305_1_1030_580.0"
+    ],
+    [
+      "50/60% RH A333",
+      "door_50/60% RH A333"
+    ],
+    [
+      "door_50/60% RH A333",
+      "bypass_Infrared Research A329_1_440_580.0"
+    ],
+    [
+      "Analytical Services A337",
+      "door_Analytical Services A337"
+    ],
+    [
+      "door_Analytical Services A337",
+      "bypass_Analytical Services A337_1_125_580.0"
+    ],
+    [
+      "bypass_Analytical Services A337_1_125_580.0",
+      "bypass_Analytical Services A337_2_440_580.0"
+    ],
+    [
+      "bypass_Analytical Services A337_2_440_580.0",
+      "bypass_Infrared Research A329_1_440_580.0"
+    ],
+    [
+      "bypass_Analytical Services A337_1_125_580.0",
+      "bypass_Infrared Research A329_1_440_580.0"
+    ],
+    [
+      "bypass_Analytical Services A337_2_440_580.0",
+      "bypass_Advanced Organic Laboratory A325_1_545_580.0"
+    ],
+    [
+      "door_Mi Meo A140 / Office A138",
+      "door_Glass Blowing A136"
+    ],
+    [
+      "door_Glass Blowing A136",
+      "door_Electronic Shop A134"
+    ],
+    [
+      "door_Electronic Shop A134",
+      "door_Fine Machanics A132"
+    ],
+    [
+      "door_Fine Machanics A132",
+      "door_Instructor's Room A126"
+    ],
+    [
+      "door_Instructor's Room A126",
+      "door_Office Lab A122"
+    ],
+    [
+      "door_Office Lab A122",
+      "door_Balance Room A118"
+    ],
+    [
+      "door_Balance Room A118",
+      "door_Women's CR A116"
+    ],
+    [
+      "door_Women's CR A116",
+      "door_Men's CR A114"
+    ],
+    [
+      "door_Office A240",
+      "door_Classroom A236"
+    ],
+    [
+      "door_Classroom A236",
+      "door_Instrument Room A230"
+    ],
+    [
+      "door_Instrument Room A230",
+      "door_Balance Room A240"
+    ],
+    [
+      "door_Balance Room A240",
+      "door_Chromatography A222"
+    ],
+    [
+      "door_Chromatography A222",
+      "door_Office Lab A218"
+    ],
+    [
+      "door_Office Lab A218",
+      "door_Women's CR A216"
+    ],
+    [
+      "door_Women's CR A216",
+      "door_Men's CR A214"
+    ],
+    [
+      "door_Men's CR A214",
+      "door_Clerical A206"
+    ],
+    [
+      "door_Clerical A206",
+      "door_Head A202 / Document A204"
+    ],
+    [
+      "door_Office Room A340",
+      "door_Cage Wash & Feed Storage A338"
+    ],
+    [
+      "door_Cage Wash & Feed Storage A338",
+      "door_Cages Animal Room A336"
+    ],
+    [
+      "door_Cages Animal Room A336",
+      "door_Office Lab A332"
+    ],
+    [
+      "door_Office Lab A332",
+      "door_kjeldahl A330"
+    ],
+    [
+      "door_kjeldahl A330",
+      "door_Solvent Extraction Room A330"
+    ],
+    [
+      "door_Solvent Extraction Room A330",
+      "door_Office Lab A330"
+    ],
+    [
+      "door_Office Lab A330",
+      "door_Chromatography A322"
+    ],
+    [
+      "door_Chromatography A322",
+      "door_Office Lab A320"
+    ],
+    [
+      "door_Office Lab A320",
+      "door_Office A318"
+    ],
+    [
+      "door_Office A318",
+      "door_Women's CR A316"
+    ],
+    [
+      "door_Women's CR A316",
+      "door_Men's CR A314"
+    ],
+    [
+      "door_Men's CR A314",
+      "door_Radio Chem Storage A308"
+    ],
+    [
+      "door_Radio Chem Storage A308",
+      "door_Office A304"
+    ],
+    [
+      "door_Office A304",
+      "door_Office Lab A302"
+    ],
+    [
+      "stairs1_Wing_A_1F",
+      "landing_stairs1_Wing_A_1F"
+    ],
+    [
+      "stairs1_Wing_A_2F",
+      "landing_stairs1_Wing_A_2F"
+    ],
+    [
+      "stairs1_Wing_A_3F",
+      "landing_stairs1_Wing_A_3F"
+    ],
+    [
+      "stairs2_Wing_A_1F",
+      "landing_stairs2_Wing_A_1F"
+    ],
+    [
+      "stairs2_Wing_A_2F",
+      "landing_stairs2_Wing_A_2F"
+    ],
+    [
+      "stairs2_Wing_A_3F",
+      "landing_stairs2_Wing_A_3F"
+    ],
+    [
+      "stairs1_Wing_A_1F",
+      "stairs1_Wing_A_2F"
+    ],
+    [
+      "stairs1_Wing_A_2F",
+      "stairs1_Wing_A_3F"
+    ],
+    [
+      "stairs2_Wing_A_1F",
+      "stairs2_Wing_A_2F"
+    ],
+    [
+      "stairs2_Wing_A_2F",
+      "stairs2_Wing_A_3F"
+    ]
+  ],
+  "cache_version": 2
+}
