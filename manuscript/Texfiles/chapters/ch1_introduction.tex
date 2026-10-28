@@ -1,0 +1,147 @@
+\chapter[INTRODUCTION]{Introduction}\label{ch:I}
+
+\section{Background of the Study}\label{sec:1.1}
+
+The world is a huge place, and we may often find ourselves getting lost in
+unfamiliar places. Throughout history, we have invented various tools, starting
+with the compass and the map, to help us with navigation. Nowadays, navigation
+is made easy thanks to modern tracking and mapping technology. In the
+Philippines, applications like Waze help to ease the transportation
+crisis~\cite{ref01}.
+
+One of the most commonly used technologies is the Global Positioning System
+(GPS), a publicly available mapping system created by the United States
+government that uses satellites to approximate the location of a GPS receiver
+contained in a device such as a laptop or a mobile phone. This allows users to
+obtain directions to and from a particular place, and it is especially useful in
+a travel setting. Popular applications that use GPS for navigation include
+Google Maps, Waze, and Apple Maps.
+
+However, due to its top-down view from the satellites, GPS technology works best
+outdoors. It does not work well for buildings with multiple levels. To solve
+this, we can use an indoor positioning system (IPS), which works like a
+miniature version of the GPS. Specifically, we can install specialized tracking
+devices in various places inside the building. Several technologies can be used
+as positioning methods for the IPS, some of which include Wi-Fi, infrared,
+Bluetooth, and computer vision.
+
+To further improve the IPS in terms of visualization, we can implement an indoor
+map where we can mark the locations of each landmark, as well as the location of
+the user. These maps can be derived from the floor plans of the building, and
+they can be implemented without an IPS. Examples of applications that allow us
+to design indoor maps are Mappedin and ArcGIS Indoors. Google Maps also supports
+indoor maps, but only a few buildings currently have this functionality.
+
+\section{Statement of the Problem}\label{sec:1.2}
+
+Globally, hundreds of thousands of buildings are being constructed every year.
+In the Philippines, the total number of buildings constructed in the year 2022
+was 169,432, which was 4.2 percent higher than the 162,619 constructions in
+2021~\cite{ref02}. Since GPS is not an effective solution for mapping the inside
+of these buildings, there is a growing need for indoor mapping solutions.
+
+The Physical Sciences Building on the University of the Philippines Los Baños
+campus is one of these buildings that need indoor mapping. New students and
+visitors may find it difficult to navigate inside this building due to its
+multiple floors and classrooms. Currently, there is a floor plan located in this
+building, but it is not easy to find.
+
+An IPS is a possible solution for mapping the Physical Sciences Building, but it
+can be costly and challenging to build and maintain. It is also not very
+scalable if the system were expanded to the entire campus, because it requires
+external hardware for each floor in each building. Hence, we turn to indoor
+mapping applications that can be accessed anywhere.
+
+\section{Objectives of the Study}\label{sec:1.3}
+
+The main objective of this study is to develop a web application that provides
+an indoor map of the UPLB Physical Sciences Building. Specifically, it aims to:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  integrate point-to-point directions to aid users in finding the exact
+  locations of classrooms, offices, and facilities within the UPLB Physical
+  Sciences Building;
+\item
+  enable building administrators to generate a building's maps based on floor
+  plans, allowing for updates and customization of the mapping content; and
+\item
+  assess the usability of the system through user testing to evaluate navigation
+  accuracy, interface intuitiveness, and overall user satisfaction.
+\end{enumerate}
+
+\section{Significance of the Study}\label{sec:1.4}
+
+The web application developed in this study will be beneficial to visitors and
+new students who have classes inside the Physical Sciences Building. It will be
+easier for them to find the classrooms that they need to get to, and it will
+also save them time and prevent traffic in the corridors.
+
+The results of this study may also serve as a basis for future indoor mapping
+implementations in UPLB. Aside from determining the feasibility of such a
+project, future studies will know what can be improved based on this study.
+
+\section{Scope and Limitations of the Study}\label{sec:1.5}
+
+The main focus of this research is to build a web application to navigate
+through the inside of the Physical Sciences Building located at the University
+of the Philippines Los Baños, Laguna. The end users of this research include
+individuals who are unfamiliar with the building, regular occupants of the
+building such as employees and students, and building administrators of the
+Physical Sciences Building. Using the application requires access to network
+connectivity, as the application may need to update map data and navigation
+information as it is being used, and it is also required when logging in.
+
+The application does not track the user's real-time location; instead, users
+select their origin and destination, and the route is displayed on the map.
+Accessible routes and emergency exit routes are not yet mapped. The evaluation
+of the application was limited to six student users and four building
+administrators from the University Planning and Maintenance Office (UPMO).
+
+\section{Definition of Terms}\label{sec:1.6}
+
+The following terms are used in this study as defined below.
+
+\textbf{Administrator.} A user who logs in to the application and can create,
+edit, and publish floor layouts through the layout builder, in addition to using
+the navigation features.
+
+\textbf{Draft layout.} An unpublished version of a floor layout that
+administrators can save, load, rename, and delete before publishing it.
+
+\textbf{Floor layout.} The digital representation of a floor of the building,
+composed of rooms, hallways, stairs, bridges, and entrances positioned and sized
+on a two-dimensional plane.
+
+\textbf{Indoor positioning system.} A system that approximates a user's location
+inside a building using devices installed in the building, such as Wi-Fi,
+infrared, Bluetooth, or computer vision.
+
+\textbf{Layout builder.} The administrator feature used to create, edit, and
+publish the floor layouts on which navigation is based.
+
+\textbf{Location-based services.} Technologies that use a device's location to
+provide services such as object positioning, navigation, and mapping.
+
+\textbf{Navigation graph.} The network of nodes (rooms, doors, hallway segments,
+stairways, and the main entrance) and connecting edges that the application
+builds from the published layout and on which it computes routes.
+
+\textbf{Published layout.} The finalized layout that serves as the reference for
+the map and routes shown to all users; also called the main layout.
+
+\textbf{Regular user.} A student, employee, or visitor who uses the application
+to search for locations and view routes within the building.
+
+\textbf{Sandbox mode.} A separate workspace in which administrators can explore
+the layout builder without affecting the main layout or the published map.
+
+\textbf{System Usability Scale.} A ten-item questionnaire that produces a single
+usability score from 0 to 100.
+
+\textbf{Wayfinding.} The process of determining and following a route from an
+origin to a destination.
+
+\textbf{Wing.} A section of a floor of the Physical Sciences Building (Wing A,
+Wing B, or Wing C) that users can select when viewing the map.

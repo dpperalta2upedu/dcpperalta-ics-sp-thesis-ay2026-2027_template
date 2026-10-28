@@ -1,0 +1,127 @@
+% =====================================================================
+%  preamble.tex  --  packages and formatting for the PathFinder thesis
+%  Page: US Letter, 1.5" left / 1" other margins, Times 12 pt,
+%  double-spaced body (as in the original Word manuscript).
+% =====================================================================
+
+% ---------- Encoding and fonts ----------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}          % Times-compatible text and math
+\usepackage{microtype}
+
+% Unicode characters used in the manuscript
+\DeclareUnicodeCharacter{03A3}{\ensuremath{\Sigma}}
+\DeclareUnicodeCharacter{2212}{\ensuremath{-}}
+\DeclareUnicodeCharacter{00D7}{\ensuremath{\times}}
+\DeclareUnicodeCharacter{2004}{\hspace{0.33em}}
+\DeclareUnicodeCharacter{2005}{\hspace{0.25em}}
+
+% ---------- Page layout and spacing ----------
+\usepackage[letterpaper,left=1.5in,right=1in,top=1in,bottom=1in]{geometry}
+\usepackage{setspace}
+\doublespacing
+\setlength{\parindent}{0.5in}
+\setlength{\parskip}{0pt}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% ---------- Math ----------
+\usepackage{amsmath}
+
+% ---------- Figures and tables ----------
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{makecell}
+\usepackage{longtable}
+\usepackage{etoolbox}
+\usepackage[labelfont=bf,labelsep=period,justification=centering]{caption}
+\captionsetup[table]{position=above,skip=6pt}
+\captionsetup[figure]{position=below,skip=6pt}
+\AtBeginEnvironment{figure}{\singlespacing}
+\AtBeginEnvironment{table}{\singlespacing}
+\setcounter{topnumber}{3}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.8}
+
+% ---------- Numbering (Chapter I = 1.1, 1.2 ...; Appendix A = A.1 ...) ----------
+\newcommand{\chapnum}{\arabic{chapter}}
+\renewcommand{\thechapter}{\Roman{chapter}}
+\renewcommand{\thesection}{\chapnum.\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\renewcommand{\thefigure}{\chapnum.\arabic{figure}}
+\renewcommand{\thetable}{\chapnum.\arabic{table}}
+\renewcommand{\theequation}{\chapnum.\arabic{equation}}
+\appto\appendix{%
+  \renewcommand{\chapnum}{\Alph{chapter}}%
+  \renewcommand{\thechapter}{\Alph{chapter}}%
+  \addtocontents{toc}{\protect\renewcommand{\protect\cftchappresnum}{APPENDIX\space}}%
+}
+
+% ---------- Headings ----------
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries\centering}
+  {\MakeUppercase{\chaptertitlename}\ \thechapter}{12pt}{\MakeUppercase}
+\titleformat{name=\chapter,numberless}[block]
+  {\normalfont\bfseries\centering}{}{0pt}{\MakeUppercase}
+\titlespacing*{\chapter}{0pt}{0pt}{18pt}
+\titleformat{\section}{\normalfont\bfseries}{\makebox[0.6in][l]{\thesection}}{0pt}{}
+\titleformat{\subsection}{\normalfont\bfseries}{\makebox[0.6in][l]{\thesubsection}}{0pt}{}
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+\titlespacing*{\subsection}{0pt}{12pt}{6pt}
+
+% Unnumbered front-matter chapter that is still listed in the table of contents
+\newcommand{\frontchapter}[1]{%
+  \chapter*{#1}\phantomsection
+  \addcontentsline{toc}{chapter}{\MakeUppercase{#1}}%
+}
+
+% ---------- Table of contents, list of tables, list of figures ----------
+\usepackage{tocloft}
+\renewcommand{\contentsname}{TABLE OF CONTENTS}
+\renewcommand{\listtablename}{LIST OF TABLES}
+\renewcommand{\listfigurename}{LIST OF FIGURES}
+\renewcommand{\bibname}{REFERENCES}
+
+\renewcommand{\cfttoctitlefont}{\hfill\normalfont\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill\mbox{}\par\nopagebreak\noindent\hfill\textbf{Page}}
+\renewcommand{\cftlottitlefont}{\hfill\normalfont\bfseries}
+\renewcommand{\cftafterlottitle}{\hfill\mbox{}\par\nopagebreak\noindent\hfill\textbf{Page}}
+\renewcommand{\cftloftitlefont}{\hfill\normalfont\bfseries}
+\renewcommand{\cftafterloftitle}{\hfill\mbox{}\par\nopagebreak\noindent\hfill\textbf{Page}}
+
+\renewcommand{\cftdotsep}{1.5}
+\setlength{\cftbeforechapskip}{3pt}
+\setlength{\cftbeforesecskip}{0pt}
+\setlength{\cftbeforesubsecskip}{0pt}
+\renewcommand{\cftchapfont}{\bfseries}
+\renewcommand{\cftchappagefont}{\bfseries}
+\renewcommand{\cftchapleader}{\bfseries\cftdotfill{\cftdotsep}}
+\renewcommand{\cftchappresnum}{CHAPTER\space}
+\setlength{\cftchapnumwidth}{1.3in}
+\setlength{\cftsecindent}{0.3in}
+\setlength{\cftsecnumwidth}{0.5in}
+\setlength{\cftsubsecindent}{0.8in}
+\setlength{\cftsubsecnumwidth}{0.6in}
+
+\renewcommand{\cftfigpresnum}{\bfseries Figure~}
+\renewcommand{\cftfigaftersnum}{.}
+\setlength{\cftfignumwidth}{1.0in}
+\renewcommand{\cfttabpresnum}{\bfseries Table~}
+\renewcommand{\cfttabaftersnum}{.}
+\setlength{\cfttabnumwidth}{1.0in}
+\setlength{\cftbeforefigskip}{4pt}
+\setlength{\cftbeforetabskip}{4pt}
+
+% Adds the REFERENCES / TABLE OF CONTENTS / LISTS entries to the contents
+\usepackage{tocbibind}
+
+% ---------- Citations and links ----------
+\usepackage{cite}              % [3]-[5] style ranges, as in IEEE
+\usepackage[hidelinks,unicode]{hyperref}
+\hypersetup{
+  pdftitle  = {PathFinder: An Indoor Navigation Web Application for the Physical Sciences Building in the University of the Philippines Los Ba\~{n}os},
+  pdfauthor = {Dave Christian P. Peralta}
+}

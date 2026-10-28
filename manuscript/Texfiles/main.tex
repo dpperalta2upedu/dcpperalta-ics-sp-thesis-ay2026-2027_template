@@ -1,0 +1,58 @@
+% =====================================================================
+%  PathFinder: An Indoor Navigation Web Application for the Physical
+%  Sciences Building in the University of the Philippines Los Baños
+%  Special Problem -- Dave Christian P. Peralta, September 2026
+%
+%  Compile with pdfLaTeX (Overleaf default).  Main file: main.tex
+%  Bibliography: BibTeX with IEEEtran (references.bib)
+% =====================================================================
+\documentclass[12pt,letterpaper]{report}
+\input{preamble}
+
+\begin{document}
+
+% ------------------------- Front matter (roman numerals) -------------
+\pagenumbering{roman}
+\include{frontmatter/titlepage}
+\include{frontmatter/approval}
+\include{frontmatter/biographical_sketch}
+\include{frontmatter/acknowledgment}
+
+\clearpage
+{\singlespacing\tableofcontents}
+
+\clearpage
+{\singlespacing\renewcommand{\addvspace}[1]{}\listoftables}
+
+\clearpage
+{\singlespacing\renewcommand{\addvspace}[1]{}\listoffigures}
+
+\include{frontmatter/abbreviations}
+\include{frontmatter/abstract}
+
+% ------------------------- Main body (arabic numerals) ---------------
+\clearpage
+\pagenumbering{arabic}
+\include{chapters/ch1_introduction}
+\include{chapters/ch2_review_of_related_literature}
+\include{chapters/ch3_methodology}
+\include{chapters/ch4_results_and_discussion}
+\include{chapters/ch5_conclusion_and_future_work}
+
+% ------------------------- References --------------------------------
+\clearpage
+{\singlespacing
+\bibliographystyle{IEEEtran}
+\bibliography{references}}
+
+% ------------------------- Appendices --------------------------------
+\clearpage
+\chapter*{APPENDICES}\phantomsection
+\addcontentsline{toc}{chapter}{APPENDICES}
+\appendix
+\include{appendices/appendix_a_sus_questionnaire}
+\include{appendices/appendix_b_navigation_accuracy}
+\include{appendices/appendix_c_layout_builder_evaluation}
+\include{appendices/appendix_d_sus_computation}
+
+\end{document}

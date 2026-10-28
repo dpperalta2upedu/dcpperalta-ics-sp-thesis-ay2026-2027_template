@@ -1,0 +1,159 @@
+\chapter[REVIEW OF RELATED LITERATURE]{Review of Related Literature}\label{ch:II}
+
+\section{Technological Trends in Mapping Applications}\label{sec:2.1}
+
+Location-based services (LBS) is an umbrella term for technologies that use a
+device's location to provide services. Object positioning, navigation, and
+mapping all count as LBS. Junglas and Watson~\cite{ref03} observed the
+difference between LBS and non-LBS systems through an empirical study involving
+navigation tasks, and it was found that individuals prefer LBS because it is
+efficient and easy to use. However, these individuals also had privacy concerns:
+they were willing to provide their location to network providers but hesitant to
+give the same information to other entities such as third-party apps.
+
+Another technology that is closely related to LBS is the Geographic Information
+System (GIS). GIS is similar to LBS in that they both involve spatial and
+location data, but one main difference lies in their intended purpose: GIS is
+often used for mapping and analyzing geographic information, while LBS is more
+user-oriented and focuses on navigation and on adding that same functionality to
+everyday apps. GIS has made great progress over the past decades, but there are
+still areas for improvement, such as geographic modeling enhancement and
+human-oriented presentation of geographic information~\cite{ref04}.
+
+LBS and GIS are far from the only technological trends. Kunhoth et
+al.~\cite{ref05} provide an overview of various indoor positioning and
+wayfinding methods from 2014 to 2020. Among these technologies are radio
+frequency identification (RFID), ultra-wideband (UWB), and computer vision-based
+indoor mapping.
+
+\section{Commonly Used Navigation Apps}\label{sec:2.2}
+
+To understand how navigation technologies work, we first take a look at Google
+Maps, one of the most popular and feature-complete navigation apps. A report by
+Mehta et al.~\cite{ref06} analyzes this app in terms of its navigation and
+mapping. In terms of navigation, Google Maps uses the A* pathfinding algorithm.
+For its mapping, Google uses specialized devices such as a 360° camera attached
+to a car. This improves the accuracy of paths and provides 3D viewing through
+Street View. To calculate the estimated time of arrival (ETA), Google Maps
+collects data from its users on that particular route and approximates the
+traffic speed. This means that the more users there are, the more accurate the
+estimates will be. However, there are also ethical considerations here, and
+transparency is important so that users know whether their personal information
+is being used against them. Aside from Google Maps, an alternative mapping
+solution is OpenStreetMap, a community-driven digital map where volunteers can
+contribute to its development~\cite{ref07}. OpenStreetMap emphasizes
+collaboration, organizing ``mapping parties'' that annotate data on various
+geographical areas.
+
+\section{Campus Navigation Solutions}\label{sec:2.3}
+
+There exist several studies that involve indoor mapping for universities around
+the world. Vanjani et al.~\cite{ref08} implemented a navigation app for Jhulelal
+Institute of Technology (JIT) in Nagpur, India. The application was created to
+help college students reach JIT College from various outside places
+(inter-college), as well as offer directions to buildings and classrooms within
+the university (intra-college). For the inter-college stage, they used GPS and
+the Apple Maps API with a fixed destination towards JIT College. For the
+intra-college stage, the paths to and from each building were hard-coded, and a
+pre-made image was shown on the screen. This method works, but it is not ideal
+since the number of possible paths is close to \emph{n}\textsuperscript{2}
+(where \emph{n} is the number of buildings), so having a large number of
+buildings increases the manual work quadratically.
+
+There are also several navigation studies in the Philippines. Castillo et
+al.~\cite{ref09} created a mobile navigation app for the Technological Institute
+of the Philippines (T.I.P.) Quezon City campus, intended for new students and
+visitors. First, the user is taken to a login screen. After creating an account
+and logging in, the user can choose a source and a destination building, and the
+app generates a path between them using a fuzzy logic algorithm. The advantage
+of this feature over~\cite{ref08} is that the paths are automatically generated.
+However, it may be prone to errors depending on the strength of the algorithm.
+As an added feature, the user can also see other active users (shown as
+pinpoints) within the same area using a channel selection algorithm through
+Bluetooth.
+
+Similar to~\cite{ref09}, Ramos et al.~\cite{ref10} created a locator map of
+Saint Michael's College of Laguna using Android Studio. It uses the A* algorithm
+for pathfinding. The layout of the campus map, including the buildings and the
+walkable roads, was manually created. The app also has a search bar where the
+user can search for a particular building, and it displays information about
+that building, including the classes one needs to take in that building.
+Overall, the app was rated ``Excellent'' based on 346 respondents.
+
+A more gamified approach to campus navigation is found in the JUAN app of Don
+Mariano Marcos Memorial State University~\cite{ref11}. The mobile campus map
+incentivizes the user to go to different locations within the campus to collect
+BeeCoins, which represent the number of points the user has. Through this
+approach, the user can have fun while learning. The app used satellite view for
+the map layout and GPS for the user's location.
+
+\section{Indoor Navigation in Other Industries}\label{sec:2.4}
+
+Aside from campus navigation, indoor mapping can also be effective in other
+settings, such as finding stores in malls. A system proposed by Tulaskar et
+al.~\cite{ref12} uses Wi-Fi fingerprinting to locate the user and Dijkstra's
+algorithm for pathfinding. The application was developed using Android Studio
+and Node.js, and it can display directions from the user's location to other
+stores in the mall. However, it is unclear how multi-floor navigation
+functionality can be achieved based on this implementation.
+
+Another implementation by Saeliw et al.~\cite{ref13} combines augmented reality
+(AR), geographic information systems (GIS), and GPS technologies to find stores.
+To do this, a database was kept storing data on the floor level, latitude, and
+longitude of each store. The user could then use their phone camera to locate
+the store through an AR popup. Again, it is unclear whether the floor level of
+the user was automatically determined or manually inputted.
+
+Similar to~\cite{ref12}, Tan et al.~\cite{ref14} use Wi-Fi instead of GPS to
+improve the accuracy of the user's indoor location. The mobile application used
+an existing indoor map found in Google Maps and provided an interface for
+locating stores inside Plaza Low Yat in Kuala Lumpur, Malaysia. On a scale of 1
+to 5, users consistently rated it above 4 in terms of its usefulness, ease of
+use, efficiency, and aesthetics.
+
+\section{Challenges of Indoor Navigation}\label{sec:2.5}
+
+While indoor navigation is certainly beneficial to all kinds of users, it does
+not come without its challenges. A study by Zlatanova et al.~\cite{ref15}
+proposes a set of indoor mapping and modeling (IMM) issues that are worth
+researching. Among these problems are optimal navigation routing, emergency
+preparedness, and legal and security issues.
+
+Indoor navigation is believed to promote accessibility, especially for users
+with mobility challenges. However, there is still a lack of actual testing with
+these individuals. According to an analysis of 111 existing wayfinding and
+navigation papers~\cite{ref16}, persons with mobility issues had no involvement
+in the design and development of the navigation solutions in most papers. This
+makes it hard to prove the effectiveness of the product in real-life contexts.
+
+Another problem with indoor navigation is its lack of accessibility standards
+and guidelines. Striegl et al.~\cite{ref17} report that in OpenStreetMap, on
+average, only one building per city has an indoor map, and among those
+buildings, the ones with accessibility information are even fewer.
+
+One of the biggest challenges of indoor positioning, mapping, and navigation
+(IPMN) is its lack of standardization. Over the decades, multiple researchers
+and developers have tackled IPMN, but it is hard to undergo the process of
+industrialization because there is no clear set of rules to be followed.
+Gelernter and Maheshwari~\cite{ref18} also point out the lack of a standardized
+file format for indoor map data, making it harder to have a one-size-fits-all
+approach to speed up the indoor mapping process globally. To address this, Deng
+et al.~\cite{ref19} proposed a set of requirements for IPMN:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Indoor positioning can be classified into two types: requiring external
+  equipment, or device-free. If using the former, the external equipment must be
+  prepared in advance.
+\item
+  Indoor positioning must not be separated from map visualization, and map
+  visualization should consider expressing symbols, color, and semantic
+  information.
+\item
+  Indoor and outdoor positioning should be treated as separate modes in the
+  application.
+\item
+  A consistency test is required for evaluating the accuracy and cost of
+  positioning technologies.
+\end{enumerate}
